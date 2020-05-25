@@ -8,6 +8,7 @@ main.py
 __pycache__/
 *.py[cod]
 *$py.class
+LPS_testcases.xlsx
 
 # C extensions
 *.so
