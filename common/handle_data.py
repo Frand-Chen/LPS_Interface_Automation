@@ -5,7 +5,7 @@
 """
 
 import re
-from common.handle_config import conf
+from common.handle_config import gen_conf
 
 
 class TestData:
@@ -27,7 +27,7 @@ def replace_data(data):
 
         try:
             # 根据替换内容 item"#***#" 到配置文件中查找对应的数据 key "***"，并进行替换
-            data = data.replace(item, str(conf.get("test_data", key)))
+            data = data.replace(item, str(gen_conf.get("test_data", key)))
         except:
             # 如果配置文件中没有对应的 key,则到 TestDate 中查找,
             data = data.replace(item, str(getattr(TestData(), key)))
@@ -41,3 +41,6 @@ if __name__ == '__main__':
     data = replace_data(dic)
     print(type(data))
     print(eval(data))
+    print(type(data))
+    print(eval(data))
+
