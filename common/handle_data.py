@@ -41,3 +41,6 @@ if __name__ == '__main__':
     data = replace_data(dic)
     print(type(data))
     print(eval(data))
+    print(type(data))
+    print(eval(data))
+
