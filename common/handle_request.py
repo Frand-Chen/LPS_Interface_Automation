@@ -16,9 +16,9 @@ class HandleRequest:
         if method == "GET":
             return requests.get(url=url, params=params, headers=headers)
         elif method == "POST":
-            return requests.post(url=url, data=data, json=json, headers=headers)
+            return requests.post(url=url, data=data, json=json, params=params, headers=headers)
         elif method == "PATCH":
-            return requests.patch(url=url, data=data, json=json, headers=headers)
+            return requests.patch(url=url, data=data, json=json, params=params, headers=headers)
         elif method == "DELETE":
             pass
 
@@ -29,8 +29,19 @@ class HandleSessionRequest:
     def __init__(self):
         self.session = requests.session()
 
-    def send(self):
-        pass
+    def send(self, url, method, data=None, json=None, params=None, headers=None):
+        # 请求方法统一转换成大写进行判断
+        method = method.upper()
+        if method == "GET":
+            return self.session.get(url=url, params=params, headers=headers)
+        elif method == "POST":
+            return self.session.post(url=url, data=data, json=json, params=params, headers=headers)
+        elif method == "PATCH":
+            return self.session.patch(url=url, data=data, json=json, params=params, headers=headers)
+        elif method == "PUT":
+            pass
+        elif method == "DELETE":
+            pass
 
 
 handle_request = HandleRequest()
@@ -47,12 +58,12 @@ if __name__ == '__main__':
         "Accept-Encoding": "gzip, deflate",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36",
         "Host": "ec2-18-234-127-122.compute-1.amazonaws.com",
-        "Connection":"keep-alive"
+        "Connection": "keep-alive"
     }
 
-    res = handle_request.send(url=url, method="get", params=params, headers=headers)
+    # res = handle_request.send(url=url, method="get", params=params, headers=headers)
+    res = handle_session_request.send(url=url, method="get", params=params, headers=headers)
     print(res.url)
     print(res.headers)
     print(res.content)
     print(res)
-

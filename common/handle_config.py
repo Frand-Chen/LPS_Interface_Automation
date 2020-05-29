@@ -55,9 +55,10 @@ sec_conf = HandleConf(secrecy_conf_path)
 gen_conf = HandleConf(general_conf_path)
 
 if __name__ == '__main__':
-    gen_conf["DEFAULT"] = {'ServerAliveInterval': '455',
-                           'Compression': 'yes',
-                           'CompressionLevel': '9',
-                           'ForwardX11': 'yes'
-                           }
-    gen_conf.write(open(general_conf_path, "w", encoding="utf8"))
+    # gen_conf["DEFAULT"] = {'ServerAliveInterval': '455',
+    #                        'Compression': 'yes',
+    #                        'CompressionLevel': '9',
+    #                        'ForwardX11': 'yes'
+    #                        }
+    # gen_conf.write(open(general_conf_path, "w", encoding="utf8"))
+    print(gen_conf.get("logging", "level"))
