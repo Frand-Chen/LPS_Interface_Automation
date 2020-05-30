@@ -53,8 +53,8 @@ class Logger:
 
 
 # 创建一个日志收集器
-logger = Logger.create_logger()
+my_logger = Logger.create_logger()
 
 if __name__ == '__main__':
-    logger.info("info123")
-    logger.error("error456")
+    my_logger.info("info123")
+    my_logger.error("error456")

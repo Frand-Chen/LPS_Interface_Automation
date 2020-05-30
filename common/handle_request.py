@@ -41,7 +41,7 @@ class HandleSessionRequest:
         elif method == "PUT":
             pass
         elif method == "DELETE":
-            pass
+            return self.session.delete(url=url, data=data, json=json, params=params, headers=headers)
 
 
 handle_request = HandleRequest()
