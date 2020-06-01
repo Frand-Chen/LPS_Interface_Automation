@@ -29,7 +29,7 @@ class TestSession:
     result_column = 10
 
     @pytest.mark.skip
-    @pytest.mark.flow_normal
+    @pytest.mark.normal
     @pytest.mark.parametrize("test_data", session_test_data)
     def test_get_session_normal(self, test_data):
         """测试 getSession 请求正常的用例"""
@@ -58,7 +58,7 @@ class TestSession:
                 my_logger.info("{}-用例title：{} ---> Pass".format(interface, title))
 
     @pytest.mark.skip
-    @pytest.mark.flow_abnormal
+    @pytest.mark.abnormal
     @pytest.mark.parametrize("test_data", session_test_data)
     def test_get_session_abnormal(self, test_data):
         """测试 getSession 请求异常的用例"""
@@ -87,7 +87,7 @@ class TestSession:
                 my_logger.info("{}-用例title：{} ---> Pass".format(interface, title))
 
     @pytest.mark.skip
-    @pytest.mark.flow_normal
+    @pytest.mark.normal
     @pytest.mark.parametrize("test_data", session_test_data)
     def test_delete_session_normal(self, test_data, get_session):
         """测试 deleteSession 请求正常的用例"""
@@ -113,7 +113,7 @@ class TestSession:
                 my_logger.info("{}-用例title：{} ---> Pass".format(interface, title))
 
     @pytest.mark.skip
-    @pytest.mark.flow_abnormal
+    @pytest.mark.abnormal
     @pytest.mark.parametrize("test_data", session_test_data)
     def test_delete_session_abnormal(self, test_data, get_session):
         """测试 deleteSessoin 请求异常的用例"""

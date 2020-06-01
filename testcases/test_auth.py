@@ -28,10 +28,10 @@ class TestAuth:
     # 写测试结果的列数
     result_column = 10
 
-    # @pytest.mark.skip
-    @pytest.mark.flow_normal
+    @pytest.mark.skip
+    @pytest.mark.normal
     @pytest.mark.parametrize("test_data", test_data[0:1])
-    def test_get_auth_normal(self, test_data, get_session):
+    def test_get_auth_normal(self, test_data):
         """测试 Auth 请求正常的用例"""
         if test_data.interface == "Auth" and test_data.flow == "normal":
             case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
@@ -54,12 +54,33 @@ class TestAuth:
                                       font_color=colors.DARKGREEN)
                 my_logger.info("{}-用例title：{} ---> Pass".format(interface, title))
 
-    @pytest.mark.skip
-    @pytest.mark.flow_abnormal
+    # @pytest.mark.skip
+    @pytest.mark.abnormal
     @pytest.mark.parametrize("test_data", test_data)
     def test_get_auth_abnormal(self, test_data):
         """测试 Auth 请求异常的用例"""
-        pass
+        if test_data.interface == "Auth" and test_data.flow == "abnormal":
+            case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
+                test_data)
+            headers["Host"] = sec_conf.get("environment", "host")
+            if test_data.title == "错误的AKey":
+                headers["AKey"] = "8D1097CD-40DF-4BA2-8EFD-CCD896798B23"
+            elif test_data.title == "缺少AKey":
+                headers["AKey"] = None
+
+            response = http.send(url=url, method=method, params=params, headers=headers)
+
+            # 断言
+            try:
+                assert expected["code"] == response.status_code
+            except AssertionError as e:
+                self.excel.write_data(row=case_id + 1, column=self.result_column, value="Fail", font_color=colors.RED)
+                my_logger.info("{}-用例title：{} ---> Fail".format(interface, title))
+                raise e
+            else:
+                self.excel.write_data(row=case_id + 1, column=self.result_column, value="Pass",
+                                      font_color=colors.DARKGREEN)
+                my_logger.info("{}-用例title：{} ---> Pass".format(interface, title))
 
 
 if __name__ == '__main__':
