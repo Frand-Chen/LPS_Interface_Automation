@@ -15,7 +15,7 @@ from common.handle_request import handle_session_request as http
 from common.logger import my_logger
 from common.read_excel import ReadExcel
 
-# 获取 Session 测试用例文件
+# 获取测试用例文件
 test_case_file = gen_conf.get("testdata", "test_case_file")
 test_case_path = os.path.join(DATA_DIR, test_case_file)
 
@@ -27,7 +27,8 @@ class TestSession:
     session_test_data = excel.read_data_object()
     # 写测试结果的列数
     result_column = 10
-    # @pytest.mark.skip
+
+    @pytest.mark.skip
     @pytest.mark.flow_normal
     @pytest.mark.parametrize("test_data", session_test_data)
     def test_get_session_normal(self, test_data):

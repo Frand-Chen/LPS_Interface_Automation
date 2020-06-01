@@ -1,0 +1,1 @@
+INFO     my_log:test_auth.py:56 Auth-用例title：成功获取Token ---> Pass

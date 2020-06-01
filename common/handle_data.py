@@ -39,7 +39,7 @@ def replace_data(config_file, section, data) -> str:
             elif config_file == "general_config":
                 data = data.replace(item, str(gen_conf(section, key)))
         except:
-            # 如果配置文件中没有对应的 key,则到 TestDate 中查找,
+            # 如果配置文件中没有对应的 key,则到 TestDate 中查找
             data = data.replace(item, str(getattr(TestData, key)))
 
     return data
