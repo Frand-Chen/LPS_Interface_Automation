@@ -28,7 +28,7 @@ class TestSession:
     # 写测试结果的列数
     result_column = 10
 
-    @pytest.mark.skip
+    # @pytest.mark.skip
     @pytest.mark.normal
     @pytest.mark.parametrize("test_data", session_test_data)
     def test_get_session_normal(self, test_data):
@@ -67,7 +67,7 @@ class TestSession:
                 test_data)
             headers["Host"] = sec_conf.get("environment", "host")
             if title == "错误的AKey":
-                headers["AKey"] = "8D1097CD-40DF-4BA2-8EFD-CCD896798B23"
+                headers["AKey"] = sec_conf.get("environment", "errorAKey")
             elif title == "缺少AKey":
                 headers["AKey"] = None
 
@@ -96,7 +96,7 @@ class TestSession:
                 test_data)
             headers["AKey"] = sec_conf.get("environment", "AKey")
             headers["Host"] = sec_conf.get("environment", "host")
-            url = url + getattr(TestData, "sessionId")
+
             # 发送请求
             response = http.send(url=url, method=method, headers=headers)
 
@@ -123,16 +123,13 @@ class TestSession:
             headers["Host"] = sec_conf.get("environment", "host")
 
             if title == "缺少sessionId":
-                headers["AKey"] = sec_conf.get("environment", "AKey")
+                headers["AKey"] = sec_conf.get("environment", "errorAKey")
             elif title == "错误的seesionId":
                 headers["AKey"] = sec_conf.get("environment", "AKey")
-                url = url + "58aa160a-2bca-49e1-9a32-f8d5d64e9975"
             elif title == "错误的AKey":
                 headers["AKey"] = "8D1097CD-40DF-4BA2-8EFD-CCD896798B23"
-                url = url + getattr(TestData, "sessionId")
             elif title == "缺少AKey":
                 headers["AKey"] = None
-                url = url + getattr(TestData, "sessionId")
 
             response = http.send(url=url, method=method, headers=headers)
 
@@ -149,4 +146,4 @@ class TestSession:
 
 
 if __name__ == '__main__':
-    pytest.main()
+    pytest.main(["-s"])

@@ -13,7 +13,7 @@ class TestData:
     pass
 
 
-def replace_data(config_file, section, data) -> str:
+def replace_data(section, data) -> str:
     """
     替换数据
     :param config_file: 配置文件
@@ -33,14 +33,16 @@ def replace_data(config_file, section, data) -> str:
         key = res.group(1)
 
         try:
-            # 根据替换内容 item"#***#" 到配置文件中查找对应的数据 key "***"，并进行替换
-            if config_file == "secrecy_config":
+            # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
+            try:
                 data = data.replace(item, str(sec_conf.get(section, key)))
-            elif config_file == "general_config":
+            except:
+                # 根据替换内容 item"#***#" 到 general_config 配置文件中查找对应的数据 key "***"，并进行替换
                 data = data.replace(item, str(gen_conf(section, key)))
         except:
             # 如果配置文件中没有对应的 key,则到 TestDate 中查找
             data = data.replace(item, str(getattr(TestData, key)))
+
 
     return data
 
@@ -53,10 +55,10 @@ def get_test_data(test_data):
     title = test_data.title
     method = test_data.method
     base_url = sec_conf.get("environment", "base_url")
-    url = base_url + replace_data("secrecy_config", "environment", test_data.url)
+    url = base_url + replace_data("environment", test_data.url)
     params = test_data.params
     if params != None:
-        params = eval(replace_data("secrecy_config", "environment", params))
+        params = eval(replace_data("testdata", params))
     data = test_data.data
     if data != None:
         data = eval(data)

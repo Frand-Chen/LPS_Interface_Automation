@@ -54,7 +54,7 @@ class TestAuth:
                                       font_color=colors.DARKGREEN)
                 my_logger.info("{}-用例title：{} ---> Pass".format(interface, title))
 
-    # @pytest.mark.skip
+    @pytest.mark.skip
     @pytest.mark.abnormal
     @pytest.mark.parametrize("test_data", test_data)
     def test_get_auth_abnormal(self, test_data):
