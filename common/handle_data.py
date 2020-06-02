@@ -33,12 +33,12 @@ def replace_data(section, data) -> str:
         key = res.group(1)
 
         try:
-            # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
             try:
+                # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
                 data = data.replace(item, str(sec_conf.get(section, key)))
             except:
                 # 根据替换内容 item"#***#" 到 general_config 配置文件中查找对应的数据 key "***"，并进行替换
-                data = data.replace(item, str(gen_conf(section, key)))
+                data = data.replace(item, str(gen_conf.get(section, key)))
         except:
             # 如果配置文件中没有对应的 key,则到 TestDate 中查找
             data = data.replace(item, str(getattr(TestData, key)))

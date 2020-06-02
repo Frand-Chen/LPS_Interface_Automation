@@ -30,7 +30,7 @@ class TestSession:
 
     # @pytest.mark.skip
     @pytest.mark.normal
-    @pytest.mark.parametrize("test_data", session_test_data)
+    @pytest.mark.parametrize("test_data", session_test_data[0:1])
     def test_get_session_normal(self, test_data):
         """测试 getSession 请求正常的用例"""
         if test_data.interface == "getSession" and test_data.flow == "normal":
