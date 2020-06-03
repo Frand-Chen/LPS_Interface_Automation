@@ -57,4 +57,6 @@ my_log = Logger.create_logger()
 
 if __name__ == '__main__':
     my_log.info("info123")
+    import time
+    time.sleep(1.2)
     my_log.error("error456")
