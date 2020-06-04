@@ -12,6 +12,7 @@ class TestData:
     """保存需要替换的数据"""
     pass
 
+
 def replace_data(section, data) -> str:
     """
     替换数据
@@ -58,7 +59,7 @@ def get_test_data(test_data):
         data = eval(data)
     expected = test_data.expected
     if expected != None:
-        expected = eval(expected)
+        expected = eval(replace_data("environment", expected))
     headers = eval(sec_conf.get("environment", "headers"))
     check_sql = test_data.check_sql
     return case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql
@@ -67,6 +68,6 @@ def get_test_data(test_data):
 if __name__ == '__main__':
     # data = replace_data("#phone#,#name#")
     dic = 'vNext2/api/#version#/session?propertyCode=#propertyCode#'
-    data = replace_data("environment",dic)
+    data = replace_data("environment", dic)
     print(type(data))
     print(data)

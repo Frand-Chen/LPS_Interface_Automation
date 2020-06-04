@@ -1,8 +1,8 @@
-<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1591285950567" stop="1591285963094">
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1591287169357" stop="1591287176284">
   <name>testcases</name>
   <labels/>
   <test-cases>
-    <test-case start="1591285950567" status="canceled" stop="1591285950577">
+    <test-case start="1591287169357" status="canceled" stop="1591287169368">
       <description>测试 Auth 请求正常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_normal[test_data0]</name>
       <failure>
@@ -12,14 +12,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285950609" status="canceled" stop="1591285950619">
+    <test-case start="1591287169399" status="canceled" stop="1591287169409">
       <description>测试 Auth 请求正常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_normal[test_data1]</name>
       <failure>
@@ -29,14 +29,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285950650" status="canceled" stop="1591285950661">
+    <test-case start="1591287169438" status="canceled" stop="1591287169449">
       <description>测试 Auth 请求正常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_normal[test_data2]</name>
       <failure>
@@ -46,14 +46,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285950691" status="canceled" stop="1591285950701">
+    <test-case start="1591287169478" status="canceled" stop="1591287169489">
       <description>测试 Auth 请求正常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_normal[test_data3]</name>
       <failure>
@@ -63,14 +63,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285950731" status="canceled" stop="1591285950741">
+    <test-case start="1591287169518" status="canceled" stop="1591287169529">
       <description>测试 Auth 请求正常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_normal[test_data4]</name>
       <failure>
@@ -80,14 +80,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285950770" status="canceled" stop="1591285950781">
+    <test-case start="1591287169559" status="canceled" stop="1591287169569">
       <description>测试 Auth 请求正常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_normal[test_data5]</name>
       <failure>
@@ -97,14 +97,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285950810" status="canceled" stop="1591285950820">
+    <test-case start="1591287169602" status="canceled" stop="1591287169613">
       <description>测试 Auth 请求正常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_normal[test_data6]</name>
       <failure>
@@ -114,14 +114,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285950850" status="canceled" stop="1591285950860">
+    <test-case start="1591287169643" status="canceled" stop="1591287169653">
       <description>测试 Auth 请求正常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_normal[test_data7]</name>
       <failure>
@@ -131,14 +131,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285950891" status="canceled" stop="1591285950902">
+    <test-case start="1591287169683" status="canceled" stop="1591287169693">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data0]</name>
       <failure>
@@ -148,14 +148,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285950932" status="canceled" stop="1591285950943">
+    <test-case start="1591287169721" status="canceled" stop="1591287169731">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data1]</name>
       <failure>
@@ -165,14 +165,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285950972" status="canceled" stop="1591285950983">
+    <test-case start="1591287169760" status="canceled" stop="1591287169770">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data2]</name>
       <failure>
@@ -182,14 +182,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285951012" status="canceled" stop="1591285951023">
+    <test-case start="1591287169800" status="canceled" stop="1591287169810">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data3]</name>
       <failure>
@@ -199,14 +199,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285951053" status="canceled" stop="1591285951063">
+    <test-case start="1591287169839" status="canceled" stop="1591287169850">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data4]</name>
       <failure>
@@ -216,14 +216,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285951092" status="canceled" stop="1591285951102">
+    <test-case start="1591287169878" status="canceled" stop="1591287169888">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data5]</name>
       <failure>
@@ -233,14 +233,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285951130" status="canceled" stop="1591285951140">
+    <test-case start="1591287169918" status="canceled" stop="1591287169929">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data6]</name>
       <failure>
@@ -250,14 +250,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285951171" status="canceled" stop="1591285951181">
+    <test-case start="1591287169958" status="canceled" stop="1591287169968">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data7]</name>
       <failure>
@@ -267,29 +267,27 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285951212" status="passed" stop="1591285961617">
+    <test-case start="1591287169997" status="passed" stop="1591287174850">
       <description>测试 members 请求正常的用例</description>
       <name>test_members.TestMembers.test_members_normal[test_data0]</name>
-      <attachments>
-        <attachment source="0524f62e-8915-4068-a811-385f490e9d30-attachment.txt" title="Captured log call" type="text/plain"/>
-      </attachments>
+      <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285961650" status="canceled" stop="1591285961660">
+    <test-case start="1591287174875" status="canceled" stop="1591287174885">
       <description>测试 getSession 请求正常的用例</description>
       <name>test_session.TestSession.test_get_session_normal[test_data0]</name>
       <failure>
@@ -299,14 +297,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285961689" status="canceled" stop="1591285961699">
+    <test-case start="1591287174915" status="canceled" stop="1591287174926">
       <description>测试 getSession 请求正常的用例</description>
       <name>test_session.TestSession.test_get_session_normal[test_data1]</name>
       <failure>
@@ -316,14 +314,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285961728" status="canceled" stop="1591285961738">
+    <test-case start="1591287174956" status="canceled" stop="1591287174967">
       <description>测试 getSession 请求正常的用例</description>
       <name>test_session.TestSession.test_get_session_normal[test_data2]</name>
       <failure>
@@ -333,14 +331,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285961767" status="canceled" stop="1591285961778">
+    <test-case start="1591287174996" status="canceled" stop="1591287175006">
       <description>测试 getSession 请求正常的用例</description>
       <name>test_session.TestSession.test_get_session_normal[test_data3]</name>
       <failure>
@@ -350,14 +348,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285961808" status="canceled" stop="1591285961818">
+    <test-case start="1591287175035" status="canceled" stop="1591287175045">
       <description>测试 getSession 请求正常的用例</description>
       <name>test_session.TestSession.test_get_session_normal[test_data4]</name>
       <failure>
@@ -367,14 +365,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285961849" status="canceled" stop="1591285961861">
+    <test-case start="1591287175075" status="canceled" stop="1591287175084">
       <description>测试 getSession 请求正常的用例</description>
       <name>test_session.TestSession.test_get_session_normal[test_data5]</name>
       <failure>
@@ -384,14 +382,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285961890" status="canceled" stop="1591285961900">
+    <test-case start="1591287175114" status="canceled" stop="1591287175125">
       <description>测试 getSession 请求正常的用例</description>
       <name>test_session.TestSession.test_get_session_normal[test_data6]</name>
       <failure>
@@ -401,14 +399,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285961929" status="canceled" stop="1591285961939">
+    <test-case start="1591287175154" status="canceled" stop="1591287175165">
       <description>测试 getSession 请求正常的用例</description>
       <name>test_session.TestSession.test_get_session_normal[test_data7]</name>
       <failure>
@@ -418,14 +416,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285961969" status="canceled" stop="1591285961979">
+    <test-case start="1591287175194" status="canceled" stop="1591287175204">
       <description>测试 getSession 请求正常的用例</description>
       <name>test_session.TestSession.test_get_session_normal[test_data8]</name>
       <failure>
@@ -435,14 +433,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962008" status="canceled" stop="1591285962019">
+    <test-case start="1591287175234" status="canceled" stop="1591287175245">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data0]</name>
       <failure>
@@ -452,14 +450,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962048" status="canceled" stop="1591285962057">
+    <test-case start="1591287175274" status="canceled" stop="1591287175284">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data1]</name>
       <failure>
@@ -469,14 +467,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962086" status="canceled" stop="1591285962097">
+    <test-case start="1591287175314" status="canceled" stop="1591287175324">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data2]</name>
       <failure>
@@ -486,14 +484,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962127" status="canceled" stop="1591285962138">
+    <test-case start="1591287175354" status="canceled" stop="1591287175365">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data3]</name>
       <failure>
@@ -503,14 +501,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962169" status="canceled" stop="1591285962179">
+    <test-case start="1591287175394" status="canceled" stop="1591287175405">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data4]</name>
       <failure>
@@ -520,14 +518,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962212" status="canceled" stop="1591285962223">
+    <test-case start="1591287175434" status="canceled" stop="1591287175445">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data5]</name>
       <failure>
@@ -537,14 +535,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962259" status="canceled" stop="1591285962272">
+    <test-case start="1591287175472" status="canceled" stop="1591287175482">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data6]</name>
       <failure>
@@ -554,14 +552,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962305" status="canceled" stop="1591285962316">
+    <test-case start="1591287175512" status="canceled" stop="1591287175523">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data7]</name>
       <failure>
@@ -571,14 +569,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962347" status="canceled" stop="1591285962357">
+    <test-case start="1591287175554" status="canceled" stop="1591287175564">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data8]</name>
       <failure>
@@ -588,14 +586,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962388" status="canceled" stop="1591285962399">
+    <test-case start="1591287175593" status="canceled" stop="1591287175604">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data0]</name>
       <failure>
@@ -605,14 +603,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962429" status="canceled" stop="1591285962439">
+    <test-case start="1591287175634" status="canceled" stop="1591287175645">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data1]</name>
       <failure>
@@ -622,14 +620,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962470" status="canceled" stop="1591285962480">
+    <test-case start="1591287175675" status="canceled" stop="1591287175687">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data2]</name>
       <failure>
@@ -639,14 +637,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962511" status="canceled" stop="1591285962521">
+    <test-case start="1591287175716" status="canceled" stop="1591287175727">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data3]</name>
       <failure>
@@ -656,14 +654,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962551" status="canceled" stop="1591285962561">
+    <test-case start="1591287175757" status="canceled" stop="1591287175768">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data4]</name>
       <failure>
@@ -673,14 +671,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962592" status="canceled" stop="1591285962602">
+    <test-case start="1591287175797" status="canceled" stop="1591287175807">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data5]</name>
       <failure>
@@ -690,14 +688,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962634" status="canceled" stop="1591285962644">
+    <test-case start="1591287175835" status="canceled" stop="1591287175845">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data6]</name>
       <failure>
@@ -707,14 +705,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962676" status="canceled" stop="1591285962686">
+    <test-case start="1591287175874" status="canceled" stop="1591287175885">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data7]</name>
       <failure>
@@ -724,14 +722,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962716" status="canceled" stop="1591285962727">
+    <test-case start="1591287175915" status="canceled" stop="1591287175925">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data8]</name>
       <failure>
@@ -741,14 +739,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962757" status="canceled" stop="1591285962767">
+    <test-case start="1591287175955" status="canceled" stop="1591287175965">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data0]</name>
       <failure>
@@ -758,14 +756,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962797" status="canceled" stop="1591285962806">
+    <test-case start="1591287175995" status="canceled" stop="1591287176006">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data1]</name>
       <failure>
@@ -775,14 +773,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962836" status="canceled" stop="1591285962847">
+    <test-case start="1591287176034" status="canceled" stop="1591287176044">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data2]</name>
       <failure>
@@ -792,14 +790,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962878" status="canceled" stop="1591285962889">
+    <test-case start="1591287176074" status="canceled" stop="1591287176084">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data3]</name>
       <failure>
@@ -809,14 +807,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962919" status="canceled" stop="1591285962930">
+    <test-case start="1591287176113" status="canceled" stop="1591287176123">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data4]</name>
       <failure>
@@ -826,14 +824,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285962961" status="canceled" stop="1591285962972">
+    <test-case start="1591287176153" status="canceled" stop="1591287176164">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data5]</name>
       <failure>
@@ -843,14 +841,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285963002" status="canceled" stop="1591285963013">
+    <test-case start="1591287176192" status="canceled" stop="1591287176202">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data6]</name>
       <failure>
@@ -860,14 +858,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285963043" status="canceled" stop="1591285963054">
+    <test-case start="1591287176233" status="canceled" stop="1591287176243">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data7]</name>
       <failure>
@@ -877,14 +875,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591285963084" status="canceled" stop="1591285963094">
+    <test-case start="1591287176274" status="canceled" stop="1591287176284">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data8]</name>
       <failure>
@@ -894,7 +892,7 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="83048-MainThread"/>
+        <label name="thread" value="91540-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
