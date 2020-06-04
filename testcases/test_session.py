@@ -28,9 +28,9 @@ class TestSession:
     # 写测试结果的列数
     result_column = 10
 
-    # @pytest.mark.skip
+    @pytest.mark.skip
     @pytest.mark.normal
-    @pytest.mark.parametrize("test_data", session_test_data[0:1])
+    @pytest.mark.parametrize("test_data", session_test_data)
     def test_get_session_normal(self, test_data):
         """测试 getSession 请求正常的用例"""
         if test_data.interface == "getSession" and test_data.flow == "normal":
@@ -50,12 +50,13 @@ class TestSession:
                 assert expected["field_2"] in response.json()
             except AssertionError as e:
                 self.excel.write_data(row=case_id + 1, column=self.result_column, value="Fail", font_color=colors.RED)
-                my_logger.info("{}-用例title：{} ---> Fail".format(interface, title))
+                my_logger.info("{} - {}：{} ---> Fail".format(interface, case_id, title))
+                # Auth-用例title：成功获取Token ---> Pass
                 raise e
             else:
                 self.excel.write_data(row=case_id + 1, column=self.result_column, value="Pass",
                                       font_color=colors.DARKGREEN)
-                my_logger.info("{}-用例title：{} ---> Pass".format(interface, title))
+                my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
 
     @pytest.mark.skip
     @pytest.mark.abnormal
@@ -79,12 +80,12 @@ class TestSession:
                 assert expected["code"] == response.status_code
             except AssertionError as e:
                 self.excel.write_data(row=case_id + 1, column=self.result_column, value="Fail", font_color=colors.RED)
-                my_logger.info("{}-用例title：{} ---> Fail".format(interface, title))
+                my_logger.info("{} - {}：{} ---> Fail".format(interface, case_id, title))
                 raise e
             else:
                 self.excel.write_data(row=case_id + 1, column=self.result_column, value="Pass",
                                       font_color=colors.DARKGREEN)
-                my_logger.info("{}-用例title：{} ---> Pass".format(interface, title))
+                my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
 
     @pytest.mark.skip
     @pytest.mark.normal
@@ -105,12 +106,12 @@ class TestSession:
                 assert expected["code"] == response.status_code
             except AssertionError as e:
                 self.excel.write_data(row=case_id, column=self.result_column, value="Fail", font_color=colors.RED)
-                my_logger.info("{}-用例title：{} ---> Fail".format(interface, title))
+                my_logger.info("{} - {}：{} ---> Fail".format(interface, case_id, title))
                 raise e
             else:
                 self.excel.write_data(row=case_id + 1, column=self.result_column, value="Pass",
                                       font_color=colors.DARKGREEN)
-                my_logger.info("{}-用例title：{} ---> Pass".format(interface, title))
+                my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
 
     @pytest.mark.skip
     @pytest.mark.abnormal
@@ -137,12 +138,12 @@ class TestSession:
                 assert expected["code"] == response.status_code
             except AssertionError as e:
                 self.excel.write_data(row=case_id + 1, column=self.result_column, value="Fail", font_color=colors.RED)
-                my_logger.info("{}-用例title：{} ---> Fail".format(interface, title))
+                my_logger.info("{} - {}：{} ---> Fail".format(interface, case_id, title))
                 raise e
             else:
                 self.excel.write_data(row=case_id + 1, column=self.result_column, value="Pass",
                                       font_color=colors.DARKGREEN)
-                my_logger.info("{}-用例title：{} ---> Pass".format(interface, title))
+                my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
 
 
 if __name__ == '__main__':

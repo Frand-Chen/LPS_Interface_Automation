@@ -1,54 +1,12 @@
 # -*- coding=utf-8 -*-
-import re
+import json
 
-from common.handle_config import sec_conf, gen_conf
+from jsonpath import jsonpath
 
+js = "{'matchCount': 1, 'nextResultSetExists': False, 'previousResultSetExists': False, 'pageIndex': 0, 'pageSize': 1, 'members': [{'number': '1379714f-ce22-4adb-8238-3d39e2f86ec8', 'firstName': 'K00888', 'lastName': '餐饮消费', 'altFirstName': 'K00888', 'altLastName': 'CanYinXiaoFei', 'mobilePhoneNumber': '13912344355', 'email': '185@shiji.com', 'idType': {'code': '0001', 'name': '身份证'}, 'birthday': '1988-11-28T00:00:00+08:00', 'createDate': '2019-10-25T00:00:00+08:00', 'membershipCards': [{'id': '3579cca6-5c2b-4333-91e6-a876ca368872', 'membershipCardNumber': 'NK00000', 'status': 'Normal', 'isReport': False, 'isExpired': False, 'bindingDate': '2019-10-25T10:19:31.687+08:00', 'membershipCardInfo': {'code': 'NK', 'name': 'NK卡'}, 'membershipCardLevel': {'code': '1', 'name': '一级卡'}, 'accounts': [{'membershipCardAccount': {'code': 'jf', 'name': '积分', 'accountType': 'Other'}, 'accountType': 'Points', 'value': 806.96}, {'membershipCardAccount': {'code': 'CZZ', 'name': '成长值', 'accountType': 'Other'}, 'accountType': 'Growth', 'value': 0.0}, {'membershipCardAccount': {'code': 'cz', 'name': '储值', 'accountType': 'PrincipalAccount'}, 'accountType': 'StoredValue', 'value': 90.22}, {'membershipCardAccount': {'code': 'czzs', 'name': '储值赠送', 'accountType': 'Other'}, 'accountType': 'StoredValue', 'value': 0.0}]}], 'coupons': [{'couponCode': 'XM025', 'couponName': '测试项目券25', 'couponCount': 6}, {'couponCode': 'XM027', 'couponName': '测试项目券27', 'couponCount': 3}, {'couponCode': 'XM023', 'couponName': '测试项目券23', 'couponCount': 6}, {'couponCode': 'DJ004', 'couponName': '测试代金券4', 'couponCount': 3}, {'couponCode': 'XM007', 'couponName': '测试项目券07', 'couponCount': 3}, {'couponCode': 'XM029', 'couponName': '测试项目券29', 'couponCount': 3}, {'couponCode': 'XM028', 'couponName': '测试项目券28', 'couponCount': 3}, {'couponCode': 'XM017', 'couponName': '测试项目券17', 'couponCount': 3}, {'couponCode': 'XM012', 'couponName': '测试项目券12', 'couponCount': 3}, {'couponCode': 'XM013', 'couponName': '测试项目券13', 'couponCount': 3}, {'couponCode': 'XM006', 'couponName': '测试项目券06', 'couponCount': 2}, {'couponCode': 'XM024', 'couponName': '测试项目券24', 'couponCount': 6}, {'couponCode': 'XM011', 'couponName': '测试项目券11', 'couponCount': 3}, {'couponCode': 'XM026', 'couponName': '测试项目券26', 'couponCount': 6}, {'couponCode': 'XM016', 'couponName': '测试项目券16', 'couponCount': 3}, {'couponCode': 'djqjsw11', 'couponName': '代金券jsw11', 'couponCount': 47}, {'couponCode': 'xmqjsw1', 'couponName': '项目券jsw1', 'couponCount': 1}, {'couponCode': 'zkqjsw2', 'couponName': '折扣券jsw2', 'couponCount': 50}, {'couponCode': 'djqjsw1', 'couponName': '代金券jsw1', 'couponCount': 67}, {'couponCode': 'DJ005', 'couponName': '测试代金券5', 'couponCount': 3}, {'couponCode': 'ZK003', 'couponName': '测试折扣券003', 'couponCount': 2}, {'couponCode': 'XM019', 'couponName': '测试项目券19', 'couponCount': 3}, {'couponCode': 'ZK004', 'couponName': '测试折扣券004', 'couponCount': 3}, {'couponCode': 'DJ006', 'couponName': '测试代金券6', 'couponCount': 3}], 'preferences': [{'preferenceCategory': {'code': 'SPECIALS', 'name': '特殊需求'}, 'preference': {'code': 'FD', 'name': '高档水果|Fruits_Deluxe'}}, {'preferenceCategory': {'code': 'FLOOR', 'name': '楼层'}, 'preference': {'code': '001', 'name': '12楼 '}}, {'preferenceCategory': {'code': 'RoomType', 'name': '房型'}, 'preference': {'code': '0001', 'name': '东南方向'}}, {'preferenceCategory': {'code': 'TSP', 'name': 'Transportation'}, 'preference': {'code': 'XAD', 'name': '机场送行'}}]}]}"
 
-class TestData:
-    """保存需要替换的数据"""
-    # propertyCode = "k0088123"
-    pass
-
-def replace_data(section, data) -> str:
-    """
-    替换数据
-    :param config_file: 配置文件
-    :param section: 配置块
-    :param data: 需要替换的数据
-    :return: data
-    """
-    # 匹配规则
-    r = r"#(.+?)#"
-    # 根据规则，判断是否需要替换数据
-    while re.search(r, data):
-        # 匹配第一个要替换的数据
-        res = re.search(r, data)
-        # 提取待替换的数据 #***#
-        item = res.group()
-        # 获取替换内容中的数据项
-        key = res.group(1)
-
-        try:
-            # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
-            try:
-                print(1)
-                data = data.replace(item, str(sec_conf.get(section, key)))
-            except:
-                print(2)
-                # 根据替换内容 item"#***#" 到 general_config 配置文件中查找对应的数据 key "***"，并进行替换
-                data = data.replace(item, str(gen_conf.get(section, key)))
-        except:
-            print(3)
-            # 如果配置文件中没有对应的 key,则到 TestDate 中查找
-            data = data.replace(item, str(getattr(TestData, key)))
-        # try:
-        #     data = data.replace(item, str(sec_conf.get("testdata", key)))
-        # except:
-        #     data = data.replace(item, str(gen_conf.get("testdata", key)))
-
-    return data
-
-
-data = replace_data("testdata", '{"propertyCode":"#propertyCode#"}')
-print(data)
-
+js2 ={"sessionId": "21f85bf2-902b-4954-8c03-7fd13b23a60a","sessionExpiry": "2020-06-03T09:48:54.279418-04:00"}
+js2 =json.dumps(js2)
+print(type(js2))
+result=jsonpath(js2,"$..sessionId"[0])
+print(result)

@@ -30,7 +30,7 @@ class TestAuth:
 
     @pytest.mark.skip
     @pytest.mark.normal
-    @pytest.mark.parametrize("test_data", test_data[0:1])
+    @pytest.mark.parametrize("test_data", test_data)
     def test_get_auth_normal(self, test_data):
         """测试 Auth 请求正常的用例"""
         if test_data.interface == "Auth" and test_data.flow == "normal":
@@ -47,12 +47,12 @@ class TestAuth:
                 assert expected["field_2"] in response.json()
             except AssertionError as e:
                 self.excel.write_data(row=case_id + 1, column=self.result_column, value="Fail", font_color=colors.RED)
-                my_logger.info("{}-用例title：{} ---> Fail".format(interface, title))
+                my_logger.info("{} - {}：{} ---> Fail".format(interface, case_id,title))
                 raise e
             else:
                 self.excel.write_data(row=case_id + 1, column=self.result_column, value="Pass",
                                       font_color=colors.DARKGREEN)
-                my_logger.info("{}-用例title：{} ---> Pass".format(interface, title))
+                my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id,title))
 
     @pytest.mark.skip
     @pytest.mark.abnormal
@@ -75,12 +75,12 @@ class TestAuth:
                 assert expected["code"] == response.status_code
             except AssertionError as e:
                 self.excel.write_data(row=case_id + 1, column=self.result_column, value="Fail", font_color=colors.RED)
-                my_logger.info("{}-用例title：{} ---> Fail".format(interface, title))
+                my_logger.info("{} - {}：{} ---> Fail".format(interface, case_id,title))
                 raise e
             else:
                 self.excel.write_data(row=case_id + 1, column=self.result_column, value="Pass",
                                       font_color=colors.DARKGREEN)
-                my_logger.info("{}-用例title：{} ---> Pass".format(interface, title))
+                my_logger.info("{} - {}：{} ---> Pass".format(interface,case_id, title))
 
 
 if __name__ == '__main__':

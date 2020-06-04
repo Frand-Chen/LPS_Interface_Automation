@@ -12,7 +12,6 @@ class TestData:
     """保存需要替换的数据"""
     pass
 
-
 def replace_data(section, data) -> str:
     """
     替换数据
@@ -33,16 +32,11 @@ def replace_data(section, data) -> str:
         key = res.group(1)
 
         try:
-            try:
-                # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
-                data = data.replace(item, str(sec_conf.get(section, key)))
-            except:
-                # 根据替换内容 item"#***#" 到 general_config 配置文件中查找对应的数据 key "***"，并进行替换
-                data = data.replace(item, str(gen_conf.get(section, key)))
+            # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
+            data = data.replace(item, str(sec_conf.get(section, key)))
         except:
             # 如果配置文件中没有对应的 key,则到 TestDate 中查找
             data = data.replace(item, str(getattr(TestData, key)))
-
 
     return data
 
@@ -58,7 +52,7 @@ def get_test_data(test_data):
     url = base_url + replace_data("environment", test_data.url)
     params = test_data.params
     if params != None:
-        params = eval(replace_data("testdata", params))
+        params = eval(replace_data("environment", params))
     data = test_data.data
     if data != None:
         data = eval(data)
@@ -73,6 +67,6 @@ def get_test_data(test_data):
 if __name__ == '__main__':
     # data = replace_data("#phone#,#name#")
     dic = 'vNext2/api/#version#/session?propertyCode=#propertyCode#'
-    data = replace_data(dic)
+    data = replace_data("environment",dic)
     print(type(data))
     print(data)

@@ -10,7 +10,6 @@ from jsonpath import jsonpath
 from common.handle_config import sec_conf
 from common.handle_data import TestData
 from common.handle_request import handle_session_request as http
-
 from common.logger import my_logger
 
 
@@ -35,7 +34,7 @@ def get_session(get_headers_info):
     session_id = jsonpath(response.json(), "$..sessionId")[0]
     session_expiry = jsonpath(response.json(), "$..sessionExpiry")[0]
     # 保存数据到 TestData 类中
-    setattr(TestData, "sessionId", session_id)
+    setattr(TestData, "seesionId", session_id)
     setattr(TestData, "sessionExpiry", session_expiry)
 
 

@@ -1,8 +1,8 @@
-<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1591114022718" stop="1591114024287">
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1591285950567" stop="1591285963094">
   <name>testcases</name>
   <labels/>
   <test-cases>
-    <test-case start="1591114022718" status="canceled" stop="1591114022729">
+    <test-case start="1591285950567" status="canceled" stop="1591285950577">
       <description>测试 Auth 请求正常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_normal[test_data0]</name>
       <failure>
@@ -12,14 +12,133 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114022759" status="canceled" stop="1591114022770">
+    <test-case start="1591285950609" status="canceled" stop="1591285950619">
+      <description>测试 Auth 请求正常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_normal[test_data1]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285950650" status="canceled" stop="1591285950661">
+      <description>测试 Auth 请求正常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_normal[test_data2]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285950691" status="canceled" stop="1591285950701">
+      <description>测试 Auth 请求正常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_normal[test_data3]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285950731" status="canceled" stop="1591285950741">
+      <description>测试 Auth 请求正常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_normal[test_data4]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285950770" status="canceled" stop="1591285950781">
+      <description>测试 Auth 请求正常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_normal[test_data5]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285950810" status="canceled" stop="1591285950820">
+      <description>测试 Auth 请求正常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_normal[test_data6]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285950850" status="canceled" stop="1591285950860">
+      <description>测试 Auth 请求正常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_normal[test_data7]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285950891" status="canceled" stop="1591285950902">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data0]</name>
       <failure>
@@ -29,14 +148,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114022800" status="canceled" stop="1591114022811">
+    <test-case start="1591285950932" status="canceled" stop="1591285950943">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data1]</name>
       <failure>
@@ -46,14 +165,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114022840" status="canceled" stop="1591114022851">
+    <test-case start="1591285950972" status="canceled" stop="1591285950983">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data2]</name>
       <failure>
@@ -63,14 +182,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114022881" status="canceled" stop="1591114022892">
+    <test-case start="1591285951012" status="canceled" stop="1591285951023">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data3]</name>
       <failure>
@@ -80,14 +199,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114022922" status="canceled" stop="1591114022932">
+    <test-case start="1591285951053" status="canceled" stop="1591285951063">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data4]</name>
       <failure>
@@ -97,14 +216,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114022961" status="canceled" stop="1591114022972">
+    <test-case start="1591285951092" status="canceled" stop="1591285951102">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data5]</name>
       <failure>
@@ -114,14 +233,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023002" status="canceled" stop="1591114023013">
+    <test-case start="1591285951130" status="canceled" stop="1591285951140">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data6]</name>
       <failure>
@@ -131,14 +250,14 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023042" status="canceled" stop="1591114023052">
+    <test-case start="1591285951171" status="canceled" stop="1591285951181">
       <description>测试 Auth 请求异常的用例</description>
       <name>test_auth.TestAuth.test_get_auth_abnormal[test_data7]</name>
       <failure>
@@ -148,298 +267,182 @@
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023081" status="failed" stop="1591114023210">
+    <test-case start="1591285951212" status="passed" stop="1591285961617">
+      <description>测试 members 请求正常的用例</description>
+      <name>test_members.TestMembers.test_members_normal[test_data0]</name>
+      <attachments>
+        <attachment source="0524f62e-8915-4068-a811-385f490e9d30-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285961650" status="canceled" stop="1591285961660">
       <description>测试 getSession 请求正常的用例</description>
       <name>test_session.TestSession.test_get_session_normal[test_data0]</name>
       <failure>
-        <message>AttributeError: type object 'TestData' has no attribute 'propertyCode'</message>
-        <stack-trace>self = &lt;common.handle_config.HandleConf object at 0x0000023640E7CB38&gt;
-section = 'testdata', vars = None
-
-    def _unify_values(self, section, vars):
-        """Create a sequence of lookups with 'vars' taking priority over
-        the 'section' which takes priority over the DEFAULTSECT.
-    
-        """
-        sectiondict = {}
-        try:
-&gt;           sectiondict = self._sections[section]
-E           KeyError: 'testdata'
-
-c:\users\administrator\appdata\local\programs\python\python36\Lib\configparser.py:1138: KeyError
-
-During handling of the above exception, another exception occurred:
-
-section = 'testdata', data = '{"propertyCode":"#propertyCode#"}'
-
-    def replace_data(section, data) -&gt; str:
-        """
-        替换数据
-        :param config_file: 配置文件
-        :param section: 配置块
-        :param data: 需要替换的数据
-        :return: data
-        """
-        # 匹配规则
-        r = r"#(.+?)#"
-        # 根据规则，判断是否需要替换数据
-        while re.search(r, data):
-            # 匹配第一个要替换的数据
-            res = re.search(r, data)
-            # 提取待替换的数据 #***#
-            item = res.group()
-            # 获取替换内容中的数据项
-            key = res.group(1)
-    
-            try:
-                try:
-                    # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
-&gt;                   data = data.replace(item, str(sec_conf.get(section, key)))
-
-common\handle_data.py:38: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-
-self = &lt;common.handle_config.HandleConf object at 0x0000023640E7CB38&gt;
-section = 'testdata', option = 'propertyCode'
-
-    def get(self, section, option, *, raw=False, vars=None, fallback=_UNSET):
-        """Get an option value for a given section.
-    
-        If `vars' is provided, it must be a dictionary. The option is looked up
-        in `vars' (if provided), `section', and in `DEFAULTSECT' in that order.
-        If the key is not found and `fallback' is provided, it is used as
-        a fallback value. `None' can be provided as a `fallback' value.
-    
-        If interpolation is enabled and the optional argument `raw' is False,
-        all interpolations are expanded in the return values.
-    
-        Arguments `raw', `vars', and `fallback' are keyword only.
-    
-        The section DEFAULT is special.
-        """
-        try:
-&gt;           d = self._unify_values(section, vars)
-
-c:\users\administrator\appdata\local\programs\python\python36\Lib\configparser.py:781: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-
-self = &lt;common.handle_config.HandleConf object at 0x0000023640E7CB38&gt;
-section = 'testdata', vars = None
-
-    def _unify_values(self, section, vars):
-        """Create a sequence of lookups with 'vars' taking priority over
-        the 'section' which takes priority over the DEFAULTSECT.
-    
-        """
-        sectiondict = {}
-        try:
-            sectiondict = self._sections[section]
-        except KeyError:
-            if section != self.default_section:
-&gt;               raise NoSectionError(section)
-E               configparser.NoSectionError: No section: 'testdata'
-
-c:\users\administrator\appdata\local\programs\python\python36\Lib\configparser.py:1141: NoSectionError
-
-During handling of the above exception, another exception occurred:
-
-self = &lt;common.handle_config.HandleConf object at 0x0000023640E7CCF8&gt;
-section = 'testdata', option = 'propertycode'
-
-    def get(self, section, option, *, raw=False, vars=None, fallback=_UNSET):
-        """Get an option value for a given section.
-    
-        If `vars' is provided, it must be a dictionary. The option is looked up
-        in `vars' (if provided), `section', and in `DEFAULTSECT' in that order.
-        If the key is not found and `fallback' is provided, it is used as
-        a fallback value. `None' can be provided as a `fallback' value.
-    
-        If interpolation is enabled and the optional argument `raw' is False,
-        all interpolations are expanded in the return values.
-    
-        Arguments `raw', `vars', and `fallback' are keyword only.
-    
-        The section DEFAULT is special.
-        """
-        try:
-            d = self._unify_values(section, vars)
-        except NoSectionError:
-            if fallback is _UNSET:
-                raise
-            else:
-                return fallback
-        option = self.optionxform(option)
-        try:
-&gt;           value = d[option]
-
-c:\users\administrator\appdata\local\programs\python\python36\Lib\configparser.py:789: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-
-self = ChainMap({}, OrderedDict([('test_case_file', 'LPS_testcases.xlsx'), ('membershipcardnumber', 'NK00000')]), OrderedDict([('serveraliveinterval', '455'), ('compression', 'yes'), ('compressionlevel', '9'), ('forwardx11', 'yes')]))
-key = 'propertycode'
-
-    def __getitem__(self, key):
-        for mapping in self.maps:
-            try:
-                return mapping[key]             # can't use 'key in mapping' with defaultdict
-            except KeyError:
-                pass
-&gt;       return self.__missing__(key)            # support subclasses that define __missing__
-
-E:\Python\Envs\InterfaceAuto\lib\collections\__init__.py:883: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-
-self = ChainMap({}, OrderedDict([('test_case_file', 'LPS_testcases.xlsx'), ('membershipcardnumber', 'NK00000')]), OrderedDict([('serveraliveinterval', '455'), ('compression', 'yes'), ('compressionlevel', '9'), ('forwardx11', 'yes')]))
-key = 'propertycode'
-
-    def __missing__(self, key):
-&gt;       raise KeyError(key)
-E       KeyError: 'propertycode'
-
-E:\Python\Envs\InterfaceAuto\lib\collections\__init__.py:875: KeyError
-
-During handling of the above exception, another exception occurred:
-
-section = 'testdata', data = '{"propertyCode":"#propertyCode#"}'
-
-    def replace_data(section, data) -&gt; str:
-        """
-        替换数据
-        :param config_file: 配置文件
-        :param section: 配置块
-        :param data: 需要替换的数据
-        :return: data
-        """
-        # 匹配规则
-        r = r"#(.+?)#"
-        # 根据规则，判断是否需要替换数据
-        while re.search(r, data):
-            # 匹配第一个要替换的数据
-            res = re.search(r, data)
-            # 提取待替换的数据 #***#
-            item = res.group()
-            # 获取替换内容中的数据项
-            key = res.group(1)
-    
-            try:
-                try:
-                    # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
-                    data = data.replace(item, str(sec_conf.get(section, key)))
-                except:
-                    # 根据替换内容 item"#***#" 到 general_config 配置文件中查找对应的数据 key "***"，并进行替换
-&gt;                   data = data.replace(item, str(gen_conf.get(section, key)))
-
-common\handle_data.py:41: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-
-self = &lt;common.handle_config.HandleConf object at 0x0000023640E7CCF8&gt;
-section = 'testdata', option = 'propertycode'
-
-    def get(self, section, option, *, raw=False, vars=None, fallback=_UNSET):
-        """Get an option value for a given section.
-    
-        If `vars' is provided, it must be a dictionary. The option is looked up
-        in `vars' (if provided), `section', and in `DEFAULTSECT' in that order.
-        If the key is not found and `fallback' is provided, it is used as
-        a fallback value. `None' can be provided as a `fallback' value.
-    
-        If interpolation is enabled and the optional argument `raw' is False,
-        all interpolations are expanded in the return values.
-    
-        Arguments `raw', `vars', and `fallback' are keyword only.
-    
-        The section DEFAULT is special.
-        """
-        try:
-            d = self._unify_values(section, vars)
-        except NoSectionError:
-            if fallback is _UNSET:
-                raise
-            else:
-                return fallback
-        option = self.optionxform(option)
-        try:
-            value = d[option]
-        except KeyError:
-            if fallback is _UNSET:
-&gt;               raise NoOptionError(option, section)
-E               configparser.NoOptionError: No option 'propertycode' in section: 'testdata'
-
-c:\users\administrator\appdata\local\programs\python\python36\Lib\configparser.py:792: NoOptionError
-
-During handling of the above exception, another exception occurred:
-
-self = &lt;testcases.test_session.TestSession object at 0x0000023642157DD8&gt;
-test_data = &lt;common.read_excel.TestData object at 0x00000236421EAEB8&gt;
-
-    @pytest.mark.normal
-    @pytest.mark.parametrize("test_data", session_test_data[0:1])
-    def test_get_session_normal(self, test_data):
-        """测试 getSession 请求正常的用例"""
-        if test_data.interface == "getSession" and test_data.flow == "normal":
-            # 测试数据
-            case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
-&gt;               test_data)
-
-testcases\test_session.py:39: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-common\handle_data.py:61: in get_test_data
-    params = eval(replace_data("testdata", params))
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-
-section = 'testdata', data = '{"propertyCode":"#propertyCode#"}'
-
-    def replace_data(section, data) -&gt; str:
-        """
-        替换数据
-        :param config_file: 配置文件
-        :param section: 配置块
-        :param data: 需要替换的数据
-        :return: data
-        """
-        # 匹配规则
-        r = r"#(.+?)#"
-        # 根据规则，判断是否需要替换数据
-        while re.search(r, data):
-            # 匹配第一个要替换的数据
-            res = re.search(r, data)
-            # 提取待替换的数据 #***#
-            item = res.group()
-            # 获取替换内容中的数据项
-            key = res.group(1)
-    
-            try:
-                try:
-                    # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
-                    data = data.replace(item, str(sec_conf.get(section, key)))
-                except:
-                    # 根据替换内容 item"#***#" 到 general_config 配置文件中查找对应的数据 key "***"，并进行替换
-                    data = data.replace(item, str(gen_conf.get(section, key)))
-            except:
-                # 如果配置文件中没有对应的 key,则到 TestDate 中查找
-&gt;               data = data.replace(item, str(getattr(TestData, key)))
-E               AttributeError: type object 'TestData' has no attribute 'propertyCode'
-
-common\handle_data.py:44: AttributeError</stack-trace>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
       </failure>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023240" status="canceled" stop="1591114023250">
+    <test-case start="1591285961689" status="canceled" stop="1591285961699">
+      <description>测试 getSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_get_session_normal[test_data1]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285961728" status="canceled" stop="1591285961738">
+      <description>测试 getSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_get_session_normal[test_data2]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285961767" status="canceled" stop="1591285961778">
+      <description>测试 getSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_get_session_normal[test_data3]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285961808" status="canceled" stop="1591285961818">
+      <description>测试 getSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_get_session_normal[test_data4]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285961849" status="canceled" stop="1591285961861">
+      <description>测试 getSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_get_session_normal[test_data5]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285961890" status="canceled" stop="1591285961900">
+      <description>测试 getSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_get_session_normal[test_data6]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285961929" status="canceled" stop="1591285961939">
+      <description>测试 getSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_get_session_normal[test_data7]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285961969" status="canceled" stop="1591285961979">
+      <description>测试 getSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_get_session_normal[test_data8]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="83048-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591285962008" status="canceled" stop="1591285962019">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data0]</name>
       <failure>
@@ -449,14 +452,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023280" status="canceled" stop="1591114023290">
+    <test-case start="1591285962048" status="canceled" stop="1591285962057">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data1]</name>
       <failure>
@@ -466,14 +469,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023321" status="canceled" stop="1591114023331">
+    <test-case start="1591285962086" status="canceled" stop="1591285962097">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data2]</name>
       <failure>
@@ -483,14 +486,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023362" status="canceled" stop="1591114023372">
+    <test-case start="1591285962127" status="canceled" stop="1591285962138">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data3]</name>
       <failure>
@@ -500,14 +503,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023401" status="canceled" stop="1591114023411">
+    <test-case start="1591285962169" status="canceled" stop="1591285962179">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data4]</name>
       <failure>
@@ -517,14 +520,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023440" status="canceled" stop="1591114023450">
+    <test-case start="1591285962212" status="canceled" stop="1591285962223">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data5]</name>
       <failure>
@@ -534,14 +537,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023480" status="canceled" stop="1591114023491">
+    <test-case start="1591285962259" status="canceled" stop="1591285962272">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data6]</name>
       <failure>
@@ -551,14 +554,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023522" status="canceled" stop="1591114023532">
+    <test-case start="1591285962305" status="canceled" stop="1591285962316">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data7]</name>
       <failure>
@@ -568,14 +571,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023562" status="canceled" stop="1591114023572">
+    <test-case start="1591285962347" status="canceled" stop="1591285962357">
       <description>测试 getSession 请求异常的用例</description>
       <name>test_session.TestSession.test_get_session_abnormal[test_data8]</name>
       <failure>
@@ -585,14 +588,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023603" status="canceled" stop="1591114023613">
+    <test-case start="1591285962388" status="canceled" stop="1591285962399">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data0]</name>
       <failure>
@@ -602,14 +605,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023643" status="canceled" stop="1591114023653">
+    <test-case start="1591285962429" status="canceled" stop="1591285962439">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data1]</name>
       <failure>
@@ -619,14 +622,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023681" status="canceled" stop="1591114023691">
+    <test-case start="1591285962470" status="canceled" stop="1591285962480">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data2]</name>
       <failure>
@@ -636,14 +639,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023722" status="canceled" stop="1591114023733">
+    <test-case start="1591285962511" status="canceled" stop="1591285962521">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data3]</name>
       <failure>
@@ -653,14 +656,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023763" status="canceled" stop="1591114023775">
+    <test-case start="1591285962551" status="canceled" stop="1591285962561">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data4]</name>
       <failure>
@@ -670,14 +673,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023803" status="canceled" stop="1591114023813">
+    <test-case start="1591285962592" status="canceled" stop="1591285962602">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data5]</name>
       <failure>
@@ -687,14 +690,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023842" status="canceled" stop="1591114023853">
+    <test-case start="1591285962634" status="canceled" stop="1591285962644">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data6]</name>
       <failure>
@@ -704,14 +707,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023882" status="canceled" stop="1591114023893">
+    <test-case start="1591285962676" status="canceled" stop="1591285962686">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data7]</name>
       <failure>
@@ -721,14 +724,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023921" status="canceled" stop="1591114023931">
+    <test-case start="1591285962716" status="canceled" stop="1591285962727">
       <description>测试 deleteSession 请求正常的用例</description>
       <name>test_session.TestSession.test_delete_session_normal[test_data8]</name>
       <failure>
@@ -738,14 +741,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114023961" status="canceled" stop="1591114023971">
+    <test-case start="1591285962757" status="canceled" stop="1591285962767">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data0]</name>
       <failure>
@@ -755,14 +758,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114024000" status="canceled" stop="1591114024010">
+    <test-case start="1591285962797" status="canceled" stop="1591285962806">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data1]</name>
       <failure>
@@ -772,14 +775,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114024040" status="canceled" stop="1591114024051">
+    <test-case start="1591285962836" status="canceled" stop="1591285962847">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data2]</name>
       <failure>
@@ -789,14 +792,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114024079" status="canceled" stop="1591114024089">
+    <test-case start="1591285962878" status="canceled" stop="1591285962889">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data3]</name>
       <failure>
@@ -806,14 +809,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114024119" status="canceled" stop="1591114024130">
+    <test-case start="1591285962919" status="canceled" stop="1591285962930">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data4]</name>
       <failure>
@@ -823,14 +826,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114024159" status="canceled" stop="1591114024168">
+    <test-case start="1591285962961" status="canceled" stop="1591285962972">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data5]</name>
       <failure>
@@ -840,14 +843,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114024197" status="canceled" stop="1591114024207">
+    <test-case start="1591285963002" status="canceled" stop="1591285963013">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data6]</name>
       <failure>
@@ -857,14 +860,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114024236" status="canceled" stop="1591114024247">
+    <test-case start="1591285963043" status="canceled" stop="1591285963054">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data7]</name>
       <failure>
@@ -874,14 +877,14 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1591114024277" status="canceled" stop="1591114024287">
+    <test-case start="1591285963084" status="canceled" stop="1591285963094">
       <description>测试 deleteSessoin 请求异常的用例</description>
       <name>test_session.TestSession.test_delete_session_abnormal[test_data8]</name>
       <failure>
@@ -891,7 +894,7 @@ common\handle_data.py:44: AttributeError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="62004-MainThread"/>
+        <label name="thread" value="83048-MainThread"/>
         <label name="host" value="DESKTOP-OL8RNLN"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
