@@ -5,19 +5,13 @@ session 测试用例模块
 """
 
 import pytest
-import os
-
+from testcases import *
 from openpyxl.styles import colors
-from common.contents import DATA_DIR
-from common.handle_config import gen_conf, sec_conf
-from common.handle_data import get_test_data, TestData
+from common.handle_config import sec_conf
+from common.handle_data import get_test_data
 from common.handle_request import handle_session_request as http
 from common.logger import my_logger
 from common.read_excel import ReadExcel
-
-# 获取测试用例文件
-test_case_file = gen_conf.get("testdata", "test_case_file")
-test_case_path = os.path.join(DATA_DIR, test_case_file)
 
 
 class TestSession:
@@ -28,7 +22,7 @@ class TestSession:
     # 写测试结果的列数
     result_column = 10
 
-    # @pytest.mark.skip
+    @pytest.mark.skip
     @pytest.mark.normal
     @pytest.mark.parametrize("test_data", session_test_data)
     def test_get_session_normal(self, test_data):
@@ -125,7 +119,7 @@ class TestSession:
 
             if title == "缺少sessionId":
                 headers["AKey"] = sec_conf.get("environment", "errorAKey")
-            elif title == "错误的seesionId":
+            elif title == "错误的sessionId":
                 headers["AKey"] = sec_conf.get("environment", "AKey")
             elif title == "错误的AKey":
                 headers["AKey"] = "8D1097CD-40DF-4BA2-8EFD-CCD896798B23"

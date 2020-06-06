@@ -34,7 +34,7 @@ def get_session(get_headers_info):
     session_id = jsonpath(response.json(), "$..sessionId")[0]
     session_expiry = jsonpath(response.json(), "$..sessionExpiry")[0]
     # 保存数据到 TestData 类中
-    setattr(TestData, "seesionId", session_id)
+    setattr(TestData, "sessionId", session_id)
     setattr(TestData, "sessionExpiry", session_expiry)
 
 
