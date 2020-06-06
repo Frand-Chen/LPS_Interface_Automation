@@ -29,7 +29,9 @@ class ReadExcel:
         读取测试用例数据，保存在 Dict 中
         :return: 列表嵌套 Dict
         """
-        self.open()
+        # 先清除 result 列的数据
+        self.delete_result_column()
+
         # 按行获取所有的单元格数据
         row_sheets = list(self.sheet.rows)
         # 获取表头行
@@ -52,7 +54,9 @@ class ReadExcel:
         读取用例数据，保存在对象中
         :return: 列表嵌套对象
         """
-        self.open()
+        # 先清除 result 列的数据
+        self.delete_result_column()
+
         # 按行获取所有的单元格数据
         row_sheets = list(self.sheet.rows)
         # 获取表头行
@@ -92,7 +96,9 @@ class ReadExcel:
         :param font_color: 字体颜色, 默认 BLACK
         :param bold: True 字体加粗, False 字体不加粗
         """
-        self.open()
+        # 先清除 result 列的数据
+        self.delete_result_column()
+
         font = Font(color=font_color, bold=bold)
         # 写入数据
         self.sheet.cell(row=row, column=column).font = font
@@ -100,11 +106,31 @@ class ReadExcel:
         self.save()
         self.close()
 
+    def delete_result_column(self):
+        """清除 result 一列的数据"""
+        self.open()
+        row_sheets = list(self.sheet.rows)
+        result_column = 0
+        for sheet in row_sheets[0]:
+            result_column += 1
+            if sheet.value == "result":
+                break
+        # 遍历所有测试用例，清除 result 列的数据
+        case_row = 2
+        for row in row_sheets[1:]:
+            font = Font(color=colors.BLACK, bold=False)
+            self.sheet.cell(row=case_row, column=result_column).font = font
+            self.sheet.cell(row=case_row, column=result_column, value="")
+            case_row += 1
+        self.save()
+        self.close()
+
 
 if __name__ == '__main__':
     data = ReadExcel(r"E:\CodeLibrary\LPS_Interface_Automation\data\LPS_testcases.xlsx", "Session")
     # case = data.read_data_dict()
-    # case = data.read_data_object()
-    # for ele in case:
-    #     print(ele.case_id, ele.title)
-    data.write_data(row=2, column=11, value="test", font_color=colors.RED, bold=True)
+    case = data.read_data_object()
+    for ele in case:
+        print(ele.case_id, ele.title,ele.result)
+    # data.write_data(row=5, column=10, value="test", font_color=colors.RED, bold=True)
+    # data.delete_result_column()
