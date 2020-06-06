@@ -1,15 +1,14 @@
 .pytest_cache
-test
 .idea
 __pycache__/
-report 
 main.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-LPS_testcases.xlsx
-secrecy_config.ini
+# report 
+# LPS_testcases.xlsx
+# secrecy_config.ini
 
 
 # C extensions

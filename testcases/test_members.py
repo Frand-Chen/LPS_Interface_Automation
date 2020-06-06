@@ -30,7 +30,7 @@ class TestMembers:
     # 写测试结果的列数
     result_column = 10
 
-    # @pytest.mark.skip
+    @pytest.mark.skip
     @pytest.mark.parametrize("test_data", members_test_data[0:1])
     def test_members_normal(self, test_data, get_session):
         """测试 members 请求正常的用例"""

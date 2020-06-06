@@ -1,0 +1,63 @@
+{
+  "uid" : "dfb1b0a365136fcf",
+  "name" : "test_auth.TestAuth.test_get_auth_normal[test_data2]",
+  "fullName" : "testcases.test_auth.TestAuth.test_get_auth_normal[test_data2]",
+  "historyId" : "4a8b837d7d39213a31d6f5d05de122ae",
+  "time" : {
+    "start" : 1591408526739,
+    "stop" : 1591408526748,
+    "duration" : 9
+  },
+  "description" : "测试 Auth 请求正常的用例",
+  "descriptionHtml" : "<p>测试 Auth 请求正常的用例</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OL8RNLN"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "90108-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcases"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_auth.TestAuth.test_get_auth_normal[test_data2]"
+  }, {
+    "name" : "package",
+    "value" : "testcases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dfb1b0a365136fcf.json",
+  "parameterValues" : [ ]
+}

@@ -28,7 +28,7 @@ class TestSession:
     # 写测试结果的列数
     result_column = 10
 
-    @pytest.mark.skip
+    # @pytest.mark.skip
     @pytest.mark.normal
     @pytest.mark.parametrize("test_data", session_test_data)
     def test_get_session_normal(self, test_data):

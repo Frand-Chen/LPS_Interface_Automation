@@ -1,1 +1,0 @@
-INFO     my_log:test_auth.py:83 Auth - 2：不传User id ---> Pass

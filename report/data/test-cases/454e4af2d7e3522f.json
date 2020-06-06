@@ -1,0 +1,63 @@
+{
+  "uid" : "454e4af2d7e3522f",
+  "name" : "test_auth.TestAuth.test_get_auth_abnormal[test_data3]",
+  "fullName" : "testcases.test_auth.TestAuth.test_get_auth_abnormal[test_data3]",
+  "historyId" : "8cbede66cb1b0b114a1ea44ea7fbe32a",
+  "time" : {
+    "start" : 1591408527096,
+    "stop" : 1591408527106,
+    "duration" : 10
+  },
+  "description" : "测试 Auth 请求异常的用例",
+  "descriptionHtml" : "<p>测试 Auth 请求异常的用例</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OL8RNLN"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "90108-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcases"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_auth.TestAuth.test_get_auth_abnormal[test_data3]"
+  }, {
+    "name" : "package",
+    "value" : "testcases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "454e4af2d7e3522f.json",
+  "parameterValues" : [ ]
+}

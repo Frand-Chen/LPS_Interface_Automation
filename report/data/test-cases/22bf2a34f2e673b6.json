@@ -1,0 +1,63 @@
+{
+  "uid" : "22bf2a34f2e673b6",
+  "name" : "test_session.TestSession.test_get_session_abnormal[test_data7]",
+  "fullName" : "testcases.test_session.TestSession.test_get_session_abnormal[test_data7]",
+  "historyId" : "9de82d969e0a1caf8e86e03fb04a6773",
+  "time" : {
+    "start" : 1591408566854,
+    "stop" : 1591408566864,
+    "duration" : 10
+  },
+  "description" : "测试 getSession 请求异常的用例",
+  "descriptionHtml" : "<p>测试 getSession 请求异常的用例</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OL8RNLN"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "90108-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcases"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_session.TestSession.test_get_session_abnormal[test_data7]"
+  }, {
+    "name" : "package",
+    "value" : "testcases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22bf2a34f2e673b6.json",
+  "parameterValues" : [ ]
+}
