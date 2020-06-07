@@ -1,0 +1,63 @@
+{
+  "uid" : "21df68ce6f593348",
+  "name" : "test_members.TestMembers.test_members_abnormal[test_data12]",
+  "fullName" : "testcases.test_members.TestMembers.test_members_abnormal[test_data12]",
+  "historyId" : "3693b02eb9c517cc9125ad306e8fb61f",
+  "time" : {
+    "start" : 1591543864739,
+    "stop" : 1591543864749,
+    "duration" : 10
+  },
+  "description" : "测试 members 请求异常的用例",
+  "descriptionHtml" : "<p>测试 members 请求异常的用例</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OL8RNLN"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "104444-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcases"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_members.TestMembers.test_members_abnormal[test_data12]"
+  }, {
+    "name" : "package",
+    "value" : "testcases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21df68ce6f593348.json",
+  "parameterValues" : [ ]
+}

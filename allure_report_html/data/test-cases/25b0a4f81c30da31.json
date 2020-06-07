@@ -1,0 +1,77 @@
+{
+  "uid" : "25b0a4f81c30da31",
+  "name" : "test_session.TestSession.test_get_session_abnormal[test_data0]",
+  "fullName" : "testcases.test_session.TestSession.test_get_session_abnormal[test_data0]",
+  "historyId" : "aa89c30beebf4671e8dbf4b8310974e9",
+  "time" : {
+    "start" : 1591543904814,
+    "stop" : 1591543905404,
+    "duration" : 590
+  },
+  "description" : "测试 getSession 请求异常的用例",
+  "descriptionHtml" : "<p>测试 getSession 请求异常的用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4b9f8bfb0b7cf12b",
+      "name" : "Captured log call",
+      "source" : "4b9f8bfb0b7cf12b.txt",
+      "type" : "text/plain",
+      "size" : 76
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OL8RNLN"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "104444-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcases"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_session.TestSession.test_get_session_abnormal[test_data0]"
+  }, {
+    "name" : "package",
+    "value" : "testcases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25b0a4f81c30da31.json",
+  "parameterValues" : [ ]
+}
