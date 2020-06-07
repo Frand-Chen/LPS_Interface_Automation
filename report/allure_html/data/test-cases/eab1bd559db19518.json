@@ -1,0 +1,87 @@
+{
+  "uid" : "eab1bd559db19518",
+  "name" : "成功获取sessionId，参数含propertyCode",
+  "fullName" : "testcases.test_session.TestSession#test_get_session_normal",
+  "historyId" : "07a45560b528c7a985e3b0ce1bc13a24",
+  "time" : {
+    "start" : 1591518509591,
+    "stop" : 1591518510531,
+    "duration" : 940
+  },
+  "description" : "测试 getSession 请求正常的用例",
+  "descriptionHtml" : "<p>测试 getSession 请求正常的用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 getSession 请求正常的用例",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e8c28db8419cad07",
+      "name" : "log",
+      "source" : "e8c28db8419cad07.txt",
+      "type" : "text/plain",
+      "size" : 107
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "正常获取 Session"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "获取 Session 接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_session"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSession"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OL8RNLN"
+  }, {
+    "name" : "thread",
+    "value" : "93100-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_session"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "<common.read_excel.TestData object at 0x0000029FED3530B8>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eab1bd559db19518.json",
+  "parameterValues" : [ "<common.read_excel.TestData object at 0x0000029FED3530B8>" ]
+}

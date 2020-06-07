@@ -1,0 +1,1 @@
+INFO     my_log:test_session.py:160 deleteSession - 6：缺少sessionId ---> Fail

@@ -1,0 +1,741 @@
+[ {
+  "uid" : "9dc78ce624cf9097",
+  "name" : "通过相关联的会员姓和名组合查询",
+  "time" : {
+    "start" : 1591518509572,
+    "stop" : 1591518509572,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "60eb499b772303a0",
+  "name" : "通过相关联的会员姓和名组合查询",
+  "time" : {
+    "start" : 1591518509471,
+    "stop" : 1591518509471,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "c5dce13b7cf4ece0",
+  "name" : "缺少AKey",
+  "time" : {
+    "start" : 1591518509524,
+    "stop" : 1591518509524,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "c35263340edf379a",
+  "name" : "错误的Akey",
+  "time" : {
+    "start" : 1591518509412,
+    "stop" : 1591518509412,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "1d6c6fc6733302b9",
+  "name" : "通过邮箱地址查询",
+  "time" : {
+    "start" : 1591518509423,
+    "stop" : 1591518509423,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "190bdd8202189675",
+  "name" : "缺少AKey",
+  "time" : {
+    "start" : 1591518516610,
+    "stop" : 1591518517077,
+    "duration" : 467
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f6616af084d407b",
+  "name" : "通过会员姓查询",
+  "time" : {
+    "start" : 1591518509537,
+    "stop" : 1591518509537,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "962db34b3843b7b1",
+  "name" : "通过会员名查询过期的会员",
+  "time" : {
+    "start" : 1591518509562,
+    "stop" : 1591518509562,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "a7e0505530901cd0",
+  "name" : "成功获取Token",
+  "time" : {
+    "start" : 1591518509362,
+    "stop" : 1591518509362,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "6fb12e25c3ad1708",
+  "name" : "过期的sessionId",
+  "time" : {
+    "start" : 1591518509518,
+    "stop" : 1591518509518,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "42b042b8f637aafe",
+  "name" : "缺少sessionId",
+  "time" : {
+    "start" : 1591518509398,
+    "stop" : 1591518509398,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "f2be39180daf4ab2",
+  "name" : "错误的companyName",
+  "time" : {
+    "start" : 1591518509384,
+    "stop" : 1591518509384,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "64d34661d2a8bc27",
+  "name" : "缺少sessionId",
+  "time" : {
+    "start" : 1591518509405,
+    "stop" : 1591518509405,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "56450f71daa6a7a8",
+  "name" : "错误的sessionId",
+  "time" : {
+    "start" : 1591518509394,
+    "stop" : 1591518509394,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "347165316babc781",
+  "name" : "通过手机号查询过期的会员",
+  "time" : {
+    "start" : 1591518509486,
+    "stop" : 1591518509486,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "c6015ff5e48aec2e",
+  "name" : "通过会员手机号查询",
+  "time" : {
+    "start" : 1591518509539,
+    "stop" : 1591518509539,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "914ea31f69619009",
+  "name" : "缺少AKey",
+  "time" : {
+    "start" : 1591518511550,
+    "stop" : 1591518512019,
+    "duration" : 469
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "27d4c0127089bb51",
+  "name" : "通过会员卡号查询",
+  "time" : {
+    "start" : 1591518509420,
+    "stop" : 1591518509420,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "4a27bb32a0fa3c3",
+  "name" : "缺少sessionId",
+  "time" : {
+    "start" : 1591518509508,
+    "stop" : 1591518509508,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "3837ec7966f549e8",
+  "name" : "错误的sessionId",
+  "time" : {
+    "start" : 1591518514944,
+    "stop" : 1591518515447,
+    "duration" : 503
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "152312c74befb456",
+  "name" : "缺少companyName",
+  "time" : {
+    "start" : 1591518509388,
+    "stop" : 1591518509388,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "2dd05ed1ca11046b",
+  "name" : "通过会员名查询过期的会员",
+  "time" : {
+    "start" : 1591518509461,
+    "stop" : 1591518509461,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "15be77b6d5a8f7b",
+  "name" : "错误的Akey",
+  "time" : {
+    "start" : 1591518509521,
+    "stop" : 1591518509521,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "18e583d44640dd10",
+  "name" : "不传User id",
+  "time" : {
+    "start" : 1591518509371,
+    "stop" : 1591518509371,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "1c755cc8cd6dbc59",
+  "name" : "通过邮箱地址查询",
+  "time" : {
+    "start" : 1591518509531,
+    "stop" : 1591518509531,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "e39735680f4f379c",
+  "name" : "不存在的User id",
+  "time" : {
+    "start" : 1591518509367,
+    "stop" : 1591518509367,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "dd46266dfb51b883",
+  "name" : "缺少sessionId",
+  "time" : {
+    "start" : 1591518514086,
+    "stop" : 1591518514565,
+    "duration" : 479
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9befbaa824ca2b9b",
+  "name" : "错误的Akey",
+  "time" : {
+    "start" : 1591518509374,
+    "stop" : 1591518509374,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "87cba868b1789b6e",
+  "name" : "错误的companyName",
+  "time" : {
+    "start" : 1591518509493,
+    "stop" : 1591518509493,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "34899ede42fe878d",
+  "name" : "通过会员名查询",
+  "time" : {
+    "start" : 1591518509534,
+    "stop" : 1591518509534,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "8aeedd7d653faa81",
+  "name" : "查询不存在的会员名",
+  "time" : {
+    "start" : 1591518509559,
+    "stop" : 1591518509559,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "5be8e7af09d42d98",
+  "name" : "通过会员姓查询过期的会员",
+  "time" : {
+    "start" : 1591518509569,
+    "stop" : 1591518509569,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "dd91222531912d49",
+  "name" : "通过不相关的会员姓和名组合查询",
+  "time" : {
+    "start" : 1591518509576,
+    "stop" : 1591518509576,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "48174b1f05ce9ac0",
+  "name" : "错误的AKey",
+  "time" : {
+    "start" : 1591518515768,
+    "stop" : 1591518516270,
+    "duration" : 502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "548cc752fd1f139a",
+  "name" : "错误的AKey",
+  "time" : {
+    "start" : 1591518511076,
+    "stop" : 1591518511543,
+    "duration" : 467
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "19214f1979da0888",
+  "name" : "通过会员卡号查询过期的会员",
+  "time" : {
+    "start" : 1591518509547,
+    "stop" : 1591518509547,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "d69f38283ded00eb",
+  "name" : "查询不存在的会员卡号",
+  "time" : {
+    "start" : 1591518509543,
+    "stop" : 1591518509543,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "eab1bd559db19518",
+  "name" : "成功获取sessionId，参数含propertyCode",
+  "time" : {
+    "start" : 1591518509591,
+    "stop" : 1591518510531,
+    "duration" : 940
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4941a27f25090d50",
+  "name" : "正常获取会员信息",
+  "time" : {
+    "start" : 1591518509381,
+    "stop" : 1591518509381,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "99b8bf39f7b3a1b8",
+  "name" : "错误的sessionId",
+  "time" : {
+    "start" : 1591518509401,
+    "stop" : 1591518509401,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "6823b7bba6218420",
+  "name" : "查询不存在的会员姓",
+  "time" : {
+    "start" : 1591518509464,
+    "stop" : 1591518509464,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "3cb734541ed235c6",
+  "name" : "通过会员名查询",
+  "time" : {
+    "start" : 1591518509426,
+    "stop" : 1591518509426,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "6eb2e8b2831352fb",
+  "name" : "查询不存在的会员卡号",
+  "time" : {
+    "start" : 1591518509437,
+    "stop" : 1591518509437,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "91af8e2b3cdd0ba7",
+  "name" : "通过会员卡号查询",
+  "time" : {
+    "start" : 1591518509528,
+    "stop" : 1591518509528,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "ddd91c2ffeffde46",
+  "name" : "查询错误的邮箱地址",
+  "time" : {
+    "start" : 1591518509444,
+    "stop" : 1591518509444,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "f80c271fe50d2a3c",
+  "name" : "通过手机号查询过期的会员",
+  "time" : {
+    "start" : 1591518509586,
+    "stop" : 1591518509586,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "2765e0401397fcf0",
+  "name" : "查询不存在的邮箱地址",
+  "time" : {
+    "start" : 1591518509553,
+    "stop" : 1591518509553,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "5c92a773d4f3ce47",
+  "name" : "通过邮箱地址查询过期的会员",
+  "time" : {
+    "start" : 1591518509454,
+    "stop" : 1591518509454,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "3bded29a8286b003",
+  "name" : "成功获取sessionId，参数不含propertyCode",
+  "time" : {
+    "start" : 1591518510538,
+    "stop" : 1591518511068,
+    "duration" : 530
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "de202ae7a4891b2d",
+  "name" : "缺少AKey",
+  "time" : {
+    "start" : 1591518509416,
+    "stop" : 1591518509416,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "f1fb044bf41ea1c8",
+  "name" : "查询不存在的会员名",
+  "time" : {
+    "start" : 1591518509457,
+    "stop" : 1591518509457,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "5dbd6c6139e3c485",
+  "name" : "错误的sessionId",
+  "time" : {
+    "start" : 1591518509511,
+    "stop" : 1591518509511,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "d60eeb0ec24bcc86",
+  "name" : "通过邮箱地址查询过期的会员",
+  "time" : {
+    "start" : 1591518509556,
+    "stop" : 1591518509556,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "c8f40581ed6d3832",
+  "name" : "查询错误的手机号",
+  "time" : {
+    "start" : 1591518509583,
+    "stop" : 1591518509583,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "f3063331f27de5f6",
+  "name" : "错误的Akey",
+  "time" : {
+    "start" : 1591518509391,
+    "stop" : 1591518509391,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "3766cc728db9da",
+  "name" : "通过会员手机号查询",
+  "time" : {
+    "start" : 1591518509434,
+    "stop" : 1591518509434,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "57ee47024e11dcf7",
+  "name" : "查询不存在的手机号",
+  "time" : {
+    "start" : 1591518509579,
+    "stop" : 1591518509579,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "284446c59d962d7d",
+  "name" : "通过会员姓查询过期的会员",
+  "time" : {
+    "start" : 1591518509468,
+    "stop" : 1591518509468,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "6e1b00c720374cda",
+  "name" : "缺少sessionId",
+  "time" : {
+    "start" : 1591518509514,
+    "stop" : 1591518509514,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "a30a13c7054058e0",
+  "name" : "正常获取会员信息",
+  "time" : {
+    "start" : 1591518509490,
+    "stop" : 1591518509490,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "c3ca973393b74612",
+  "name" : "查询不存在的手机号",
+  "time" : {
+    "start" : 1591518509480,
+    "stop" : 1591518509480,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "390298d41efc72e3",
+  "name" : "过期的sessionId",
+  "time" : {
+    "start" : 1591518509409,
+    "stop" : 1591518509409,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "c7980d2253ae9d9c",
+  "name" : "成功删除sessionId",
+  "time" : {
+    "start" : 1591518512359,
+    "stop" : 1591518512839,
+    "duration" : 480
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7f0e0d9831e29d8",
+  "name" : "通过会员姓查询",
+  "time" : {
+    "start" : 1591518509429,
+    "stop" : 1591518509429,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "3d90c5f4e8f8f406",
+  "name" : "缺少AKey",
+  "time" : {
+    "start" : 1591518509378,
+    "stop" : 1591518509378,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "81823864eb5569ce",
+  "name" : "通过不相关的会员姓和名组合查询",
+  "time" : {
+    "start" : 1591518509475,
+    "stop" : 1591518509475,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "57fade8667a98853",
+  "name" : "查询不存在的会员姓",
+  "time" : {
+    "start" : 1591518509566,
+    "stop" : 1591518509566,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "44207ef855045e48",
+  "name" : "查询错误的手机号",
+  "time" : {
+    "start" : 1591518509483,
+    "stop" : 1591518509483,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "27e3ad9748212f94",
+  "name" : "错误的sessionId",
+  "time" : {
+    "start" : 1591518509504,
+    "stop" : 1591518509504,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "fd0673c82b01724c",
+  "name" : "查询不存在的邮箱地址",
+  "time" : {
+    "start" : 1591518509450,
+    "stop" : 1591518509450,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "a80386b0d711e3f8",
+  "name" : "查询错误的邮箱地址",
+  "time" : {
+    "start" : 1591518509550,
+    "stop" : 1591518509550,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "ceaaaa924e3f9ace",
+  "name" : "错误的Akey",
+  "time" : {
+    "start" : 1591518509501,
+    "stop" : 1591518509501,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "c82b4e0010c6248b",
+  "name" : "缺少companyName",
+  "time" : {
+    "start" : 1591518509497,
+    "stop" : 1591518509497,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "69c0da79e8397805",
+  "name" : "通过会员卡号查询过期的会员",
+  "time" : {
+    "start" : 1591518509441,
+    "stop" : 1591518509441,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+} ]

@@ -1,0 +1,1 @@
+INFO     my_log:test_session.py:165 deleteSession - 7：错误的sessionId ---> Pass

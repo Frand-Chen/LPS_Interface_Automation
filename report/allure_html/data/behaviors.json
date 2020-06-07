@@ -1,0 +1,1011 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "获取 Auth 接口",
+    "children" : [ {
+      "name" : "正常获取 Auth",
+      "children" : [ {
+        "name" : "成功获取Token",
+        "uid" : "a7e0505530901cd0",
+        "parentUid" : "b156a6a62de71b10514e664cdcbacff3",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509362,
+          "stop" : 1591518509362,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED1864A8>" ]
+      }, {
+        "name" : "不存在的User id",
+        "uid" : "e39735680f4f379c",
+        "parentUid" : "b156a6a62de71b10514e664cdcbacff3",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509367,
+          "stop" : 1591518509367,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED19C748>" ]
+      } ],
+      "uid" : "b156a6a62de71b10514e664cdcbacff3"
+    }, {
+      "name" : "异常获取 Auth",
+      "children" : [ {
+        "name" : "不传User id",
+        "uid" : "18e583d44640dd10",
+        "parentUid" : "a641e4d28e329431daca0fbf8a81dc08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509371,
+          "stop" : 1591518509371,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED19C7B8>" ]
+      }, {
+        "name" : "错误的Akey",
+        "uid" : "9befbaa824ca2b9b",
+        "parentUid" : "a641e4d28e329431daca0fbf8a81dc08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509374,
+          "stop" : 1591518509374,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED19C780>" ]
+      }, {
+        "name" : "缺少AKey",
+        "uid" : "3d90c5f4e8f8f406",
+        "parentUid" : "a641e4d28e329431daca0fbf8a81dc08",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509378,
+          "stop" : 1591518509378,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED14A160>" ]
+      } ],
+      "uid" : "a641e4d28e329431daca0fbf8a81dc08"
+    } ],
+    "uid" : "1dd5a1b9f34aab5a3811d61728ff3555"
+  }, {
+    "name" : "获取 Member 信息接口",
+    "children" : [ {
+      "name" : "正常获取会员信息",
+      "children" : [ {
+        "name" : "正常获取会员信息",
+        "uid" : "4941a27f25090d50",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509381,
+          "stop" : 1591518509381,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED26D6D8>" ]
+      }, {
+        "name" : "错误的companyName",
+        "uid" : "f2be39180daf4ab2",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509384,
+          "stop" : 1591518509384,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2A2A58>" ]
+      }, {
+        "name" : "缺少companyName",
+        "uid" : "152312c74befb456",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509388,
+          "stop" : 1591518509388,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B8470>" ]
+      }, {
+        "name" : "错误的Akey",
+        "uid" : "f3063331f27de5f6",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509391,
+          "stop" : 1591518509391,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B8BA8>" ]
+      }, {
+        "name" : "错误的sessionId",
+        "uid" : "56450f71daa6a7a8",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509394,
+          "stop" : 1591518509394,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B8588>" ]
+      }, {
+        "name" : "缺少sessionId",
+        "uid" : "42b042b8f637aafe",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509398,
+          "stop" : 1591518509398,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B82E8>" ]
+      }, {
+        "name" : "错误的sessionId",
+        "uid" : "99b8bf39f7b3a1b8",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509401,
+          "stop" : 1591518509401,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B8C50>" ]
+      }, {
+        "name" : "缺少sessionId",
+        "uid" : "64d34661d2a8bc27",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509405,
+          "stop" : 1591518509405,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B8828>" ]
+      }, {
+        "name" : "过期的sessionId",
+        "uid" : "390298d41efc72e3",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509409,
+          "stop" : 1591518509409,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B8358>" ]
+      }, {
+        "name" : "错误的Akey",
+        "uid" : "c35263340edf379a",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509412,
+          "stop" : 1591518509412,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B8E10>" ]
+      }, {
+        "name" : "缺少AKey",
+        "uid" : "de202ae7a4891b2d",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509416,
+          "stop" : 1591518509416,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B0358>" ]
+      }, {
+        "name" : "通过会员卡号查询",
+        "uid" : "27d4c0127089bb51",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509420,
+          "stop" : 1591518509420,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B0748>" ]
+      }, {
+        "name" : "通过邮箱地址查询",
+        "uid" : "1d6c6fc6733302b9",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509423,
+          "stop" : 1591518509423,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B05C0>" ]
+      }, {
+        "name" : "通过会员名查询",
+        "uid" : "3cb734541ed235c6",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509426,
+          "stop" : 1591518509426,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2A8DA0>" ]
+      }, {
+        "name" : "通过会员姓查询",
+        "uid" : "d7f0e0d9831e29d8",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509429,
+          "stop" : 1591518509429,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2A8E10>" ]
+      }, {
+        "name" : "通过会员手机号查询",
+        "uid" : "3766cc728db9da",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509434,
+          "stop" : 1591518509434,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2A84A8>" ]
+      }, {
+        "name" : "查询不存在的会员卡号",
+        "uid" : "6eb2e8b2831352fb",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509437,
+          "stop" : 1591518509437,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2A8DD8>" ]
+      }, {
+        "name" : "通过会员卡号查询过期的会员",
+        "uid" : "69c0da79e8397805",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509441,
+          "stop" : 1591518509441,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2893C8>" ]
+      }, {
+        "name" : "查询错误的邮箱地址",
+        "uid" : "ddd91c2ffeffde46",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509444,
+          "stop" : 1591518509444,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED289438>" ]
+      }, {
+        "name" : "查询不存在的邮箱地址",
+        "uid" : "fd0673c82b01724c",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509450,
+          "stop" : 1591518509450,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C45C0>" ]
+      }, {
+        "name" : "通过邮箱地址查询过期的会员",
+        "uid" : "5c92a773d4f3ce47",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509454,
+          "stop" : 1591518509454,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4940>" ]
+      }, {
+        "name" : "查询不存在的会员名",
+        "uid" : "f1fb044bf41ea1c8",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509457,
+          "stop" : 1591518509457,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4FD0>" ]
+      }, {
+        "name" : "通过会员名查询过期的会员",
+        "uid" : "2dd05ed1ca11046b",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509461,
+          "stop" : 1591518509461,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C46A0>" ]
+      }, {
+        "name" : "查询不存在的会员姓",
+        "uid" : "6823b7bba6218420",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509464,
+          "stop" : 1591518509464,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4E10>" ]
+      }, {
+        "name" : "通过会员姓查询过期的会员",
+        "uid" : "284446c59d962d7d",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509468,
+          "stop" : 1591518509468,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4EF0>" ]
+      }, {
+        "name" : "通过相关联的会员姓和名组合查询",
+        "uid" : "60eb499b772303a0",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509471,
+          "stop" : 1591518509471,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4BA8>" ]
+      }, {
+        "name" : "通过不相关的会员姓和名组合查询",
+        "uid" : "81823864eb5569ce",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509475,
+          "stop" : 1591518509475,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4C18>" ]
+      }, {
+        "name" : "查询不存在的手机号",
+        "uid" : "c3ca973393b74612",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509480,
+          "stop" : 1591518509480,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C49B0>" ]
+      }, {
+        "name" : "查询错误的手机号",
+        "uid" : "44207ef855045e48",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509483,
+          "stop" : 1591518509483,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4A20>" ]
+      }, {
+        "name" : "通过手机号查询过期的会员",
+        "uid" : "347165316babc781",
+        "parentUid" : "da396dfe49b441fc41f03e68257ed269",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509486,
+          "stop" : 1591518509486,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4710>" ]
+      } ],
+      "uid" : "da396dfe49b441fc41f03e68257ed269"
+    }, {
+      "name" : "异常获取会员信息",
+      "children" : [ {
+        "name" : "正常获取会员信息",
+        "uid" : "a30a13c7054058e0",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509490,
+          "stop" : 1591518509490,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED26D6D8>" ]
+      }, {
+        "name" : "错误的companyName",
+        "uid" : "87cba868b1789b6e",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509493,
+          "stop" : 1591518509493,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2A2A58>" ]
+      }, {
+        "name" : "缺少companyName",
+        "uid" : "c82b4e0010c6248b",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509497,
+          "stop" : 1591518509497,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B8470>" ]
+      }, {
+        "name" : "错误的Akey",
+        "uid" : "ceaaaa924e3f9ace",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509501,
+          "stop" : 1591518509501,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B8BA8>" ]
+      }, {
+        "name" : "错误的sessionId",
+        "uid" : "27e3ad9748212f94",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509504,
+          "stop" : 1591518509504,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B8588>" ]
+      }, {
+        "name" : "缺少sessionId",
+        "uid" : "4a27bb32a0fa3c3",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509508,
+          "stop" : 1591518509508,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B82E8>" ]
+      }, {
+        "name" : "错误的sessionId",
+        "uid" : "5dbd6c6139e3c485",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509511,
+          "stop" : 1591518509511,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B8C50>" ]
+      }, {
+        "name" : "缺少sessionId",
+        "uid" : "6e1b00c720374cda",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509514,
+          "stop" : 1591518509514,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B8828>" ]
+      }, {
+        "name" : "过期的sessionId",
+        "uid" : "6fb12e25c3ad1708",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509518,
+          "stop" : 1591518509518,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B8358>" ]
+      }, {
+        "name" : "错误的Akey",
+        "uid" : "15be77b6d5a8f7b",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509521,
+          "stop" : 1591518509521,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B8E10>" ]
+      }, {
+        "name" : "缺少AKey",
+        "uid" : "c5dce13b7cf4ece0",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509524,
+          "stop" : 1591518509524,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B0358>" ]
+      }, {
+        "name" : "通过会员卡号查询",
+        "uid" : "91af8e2b3cdd0ba7",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509528,
+          "stop" : 1591518509528,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B0748>" ]
+      }, {
+        "name" : "通过邮箱地址查询",
+        "uid" : "1c755cc8cd6dbc59",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509531,
+          "stop" : 1591518509531,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2B05C0>" ]
+      }, {
+        "name" : "通过会员名查询",
+        "uid" : "34899ede42fe878d",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509534,
+          "stop" : 1591518509534,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2A8DA0>" ]
+      }, {
+        "name" : "通过会员姓查询",
+        "uid" : "2f6616af084d407b",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509537,
+          "stop" : 1591518509537,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2A8E10>" ]
+      }, {
+        "name" : "通过会员手机号查询",
+        "uid" : "c6015ff5e48aec2e",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509539,
+          "stop" : 1591518509539,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2A84A8>" ]
+      }, {
+        "name" : "查询不存在的会员卡号",
+        "uid" : "d69f38283ded00eb",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509543,
+          "stop" : 1591518509543,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2A8DD8>" ]
+      }, {
+        "name" : "通过会员卡号查询过期的会员",
+        "uid" : "19214f1979da0888",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509547,
+          "stop" : 1591518509547,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2893C8>" ]
+      }, {
+        "name" : "查询错误的邮箱地址",
+        "uid" : "a80386b0d711e3f8",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509550,
+          "stop" : 1591518509550,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED289438>" ]
+      }, {
+        "name" : "查询不存在的邮箱地址",
+        "uid" : "2765e0401397fcf0",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509553,
+          "stop" : 1591518509553,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C45C0>" ]
+      }, {
+        "name" : "通过邮箱地址查询过期的会员",
+        "uid" : "d60eeb0ec24bcc86",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509556,
+          "stop" : 1591518509556,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4940>" ]
+      }, {
+        "name" : "查询不存在的会员名",
+        "uid" : "8aeedd7d653faa81",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509559,
+          "stop" : 1591518509559,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4FD0>" ]
+      }, {
+        "name" : "通过会员名查询过期的会员",
+        "uid" : "962db34b3843b7b1",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509562,
+          "stop" : 1591518509562,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C46A0>" ]
+      }, {
+        "name" : "查询不存在的会员姓",
+        "uid" : "57fade8667a98853",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509566,
+          "stop" : 1591518509566,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4E10>" ]
+      }, {
+        "name" : "通过会员姓查询过期的会员",
+        "uid" : "5be8e7af09d42d98",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509569,
+          "stop" : 1591518509569,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4EF0>" ]
+      }, {
+        "name" : "通过相关联的会员姓和名组合查询",
+        "uid" : "9dc78ce624cf9097",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509572,
+          "stop" : 1591518509572,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4BA8>" ]
+      }, {
+        "name" : "通过不相关的会员姓和名组合查询",
+        "uid" : "dd91222531912d49",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509576,
+          "stop" : 1591518509576,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4C18>" ]
+      }, {
+        "name" : "查询不存在的手机号",
+        "uid" : "57ee47024e11dcf7",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509579,
+          "stop" : 1591518509579,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C49B0>" ]
+      }, {
+        "name" : "查询错误的手机号",
+        "uid" : "c8f40581ed6d3832",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509583,
+          "stop" : 1591518509583,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4A20>" ]
+      }, {
+        "name" : "通过手机号查询过期的会员",
+        "uid" : "f80c271fe50d2a3c",
+        "parentUid" : "9ec881443c8492fab51820fbea3d5d1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591518509586,
+          "stop" : 1591518509586,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED2C4710>" ]
+      } ],
+      "uid" : "9ec881443c8492fab51820fbea3d5d1b"
+    } ],
+    "uid" : "ad7f213257e48131d5f151be28dabd75"
+  }, {
+    "name" : "获取 Session 接口",
+    "children" : [ {
+      "name" : "正常获取 Session",
+      "children" : [ {
+        "name" : "成功获取sessionId，参数含propertyCode",
+        "uid" : "eab1bd559db19518",
+        "parentUid" : "667753a768eff84c279c1607723aabca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591518509591,
+          "stop" : 1591518510531,
+          "duration" : 940
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED3530B8>" ]
+      }, {
+        "name" : "成功获取sessionId，参数不含propertyCode",
+        "uid" : "3bded29a8286b003",
+        "parentUid" : "667753a768eff84c279c1607723aabca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591518510538,
+          "stop" : 1591518511068,
+          "duration" : 530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED353160>" ]
+      } ],
+      "uid" : "667753a768eff84c279c1607723aabca"
+    }, {
+      "name" : "异常获取 Session",
+      "children" : [ {
+        "name" : "错误的AKey",
+        "uid" : "548cc752fd1f139a",
+        "parentUid" : "02711c366b35aa48b261b02c451f7616",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591518511076,
+          "stop" : 1591518511543,
+          "duration" : 467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED353F98>" ]
+      }, {
+        "name" : "缺少AKey",
+        "uid" : "914ea31f69619009",
+        "parentUid" : "02711c366b35aa48b261b02c451f7616",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591518511550,
+          "stop" : 1591518512019,
+          "duration" : 469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED353208>" ]
+      } ],
+      "uid" : "02711c366b35aa48b261b02c451f7616"
+    }, {
+      "name" : "正常删除 Session",
+      "children" : [ {
+        "name" : "成功删除sessionId",
+        "uid" : "c7980d2253ae9d9c",
+        "parentUid" : "4b4b3608af3ba7e0c04956c8ab6f504f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591518512359,
+          "stop" : 1591518512839,
+          "duration" : 480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED3532B0>" ]
+      } ],
+      "uid" : "4b4b3608af3ba7e0c04956c8ab6f504f"
+    }, {
+      "name" : "异常删除 Session",
+      "children" : [ {
+        "name" : "缺少sessionId",
+        "uid" : "dd46266dfb51b883",
+        "parentUid" : "5a7158c7d7d356c2b6392a64bacb523d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591518514086,
+          "stop" : 1591518514565,
+          "duration" : 479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED1FD518>" ]
+      }, {
+        "name" : "错误的sessionId",
+        "uid" : "3837ec7966f549e8",
+        "parentUid" : "5a7158c7d7d356c2b6392a64bacb523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591518514944,
+          "stop" : 1591518515447,
+          "duration" : 503
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED373748>" ]
+      }, {
+        "name" : "错误的AKey",
+        "uid" : "48174b1f05ce9ac0",
+        "parentUid" : "5a7158c7d7d356c2b6392a64bacb523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591518515768,
+          "stop" : 1591518516270,
+          "duration" : 502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED373710>" ]
+      }, {
+        "name" : "缺少AKey",
+        "uid" : "190bdd8202189675",
+        "parentUid" : "5a7158c7d7d356c2b6392a64bacb523d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591518516610,
+          "stop" : 1591518517077,
+          "duration" : 467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "<common.read_excel.TestData object at 0x0000029FED373B70>" ]
+      } ],
+      "uid" : "5a7158c7d7d356c2b6392a64bacb523d"
+    } ],
+    "uid" : "1c6a5e7fd50945cd840b3ea20c2d0c05"
+  } ]
+}

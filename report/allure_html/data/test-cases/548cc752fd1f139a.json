@@ -1,0 +1,87 @@
+{
+  "uid" : "548cc752fd1f139a",
+  "name" : "错误的AKey",
+  "fullName" : "testcases.test_session.TestSession#test_get_session_abnormal",
+  "historyId" : "007d66863025e0a690460f9266b506aa",
+  "time" : {
+    "start" : 1591518511076,
+    "stop" : 1591518511543,
+    "duration" : 467
+  },
+  "description" : "测试 getSession 请求异常的用例",
+  "descriptionHtml" : "<p>测试 getSession 请求异常的用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试 getSession 请求异常的用例",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8abb183eca705065",
+      "name" : "log",
+      "source" : "8abb183eca705065.txt",
+      "type" : "text/plain",
+      "size" : 76
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "异常获取 Session"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "获取 Session 接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_session"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSession"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OL8RNLN"
+  }, {
+    "name" : "thread",
+    "value" : "93100-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_session"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "<common.read_excel.TestData object at 0x0000029FED353F98>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "548cc752fd1f139a.json",
+  "parameterValues" : [ "<common.read_excel.TestData object at 0x0000029FED353F98>" ]
+}
