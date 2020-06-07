@@ -15,7 +15,7 @@ from common.logger import my_logger
 from common.read_excel import ReadExcel
 
 
-@allure.feature("获取 Session 接口")
+# @allure.feature("获取 Session 接口")
 class TestSession:
     """执行 Session 测试用例"""
     # 获取 Session 的测试用例数据
@@ -42,9 +42,9 @@ class TestSession:
             elif data.interface == "deleteSession":
                 delete_session_abnormal_data.append(data)
 
-    @allure.story("正常获取 Session")
-    @allure.severity(allure.severity_level.CRITICAL)
-    @allure.title("{test_data.title}")
+    # @allure.story("正常获取 Session")
+    # @allure.severity(allure.severity_level.CRITICAL)
+    # @allure.title("{test_data.title}")
     # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_session_normal_data)
     def test_get_session_normal(self, test_data):
@@ -73,9 +73,9 @@ class TestSession:
                                   font_color=colors.DARKGREEN)
             my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
 
-    @allure.story("异常获取 Session")
-    @allure.severity(allure.severity_level.CRITICAL)
-    @allure.title("{test_data.title}")
+    # @allure.story("异常获取 Session")
+    # @allure.severity(allure.severity_level.CRITICAL)
+    # @allure.title("{test_data.title}")
     # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_session_abnormal_data)
     def test_get_session_abnormal(self, test_data):
@@ -104,9 +104,9 @@ class TestSession:
                                   font_color=colors.DARKGREEN)
             my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
 
-    @allure.story("正常删除 Session")
-    @allure.severity(allure.severity_level.NORMAL)
-    @allure.title("{test_data.title}")
+    # @allure.story("正常删除 Session")
+    # @allure.severity(allure.severity_level.NORMAL)
+    # @allure.title("{test_data.title}")
     # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", delete_session_normal_data)
     def test_delete_session_normal(self, test_data, get_session):
@@ -131,9 +131,9 @@ class TestSession:
                                   font_color=colors.DARKGREEN)
             my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
 
-    @allure.story("异常删除 Session")
-    @allure.severity(allure.severity_level.NORMAL)
-    @allure.title("{test_data.title}")
+    # @allure.story("异常删除 Session")
+    # @allure.severity(allure.severity_level.NORMAL)
+    # @allure.title("{test_data.title}")
     @pytest.mark.skip
     @pytest.mark.parametrize("test_data", delete_session_abnormal_data)
     def test_delete_session_abnormal(self, test_data, get_session):

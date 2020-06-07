@@ -15,7 +15,7 @@ from common.logger import my_logger
 from common.read_excel import ReadExcel
 
 
-@allure.feature("获取 Auth 接口")
+# @allure.feature("获取 Auth 接口")
 class TestAuth:
     """执行 Auth 测试用例"""
     # 获取 Auth 的测试用例数据
@@ -34,9 +34,9 @@ class TestAuth:
         elif data.flow == "abnormal":
             get_auth_abnormal_data.append(data)
 
-    @allure.story("正常获取 Auth")
-    @allure.severity(allure.severity_level.CRITICAL)
-    @allure.title("{test_data.title}")
+    # @allure.story("正常获取 Auth")
+    # @allure.severity(allure.severity_level.CRITICAL)
+    # @allure.title("{test_data.title}")
     @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_auth_normal_data)
     def test_get_auth_normal(self, test_data):
@@ -61,9 +61,9 @@ class TestAuth:
                                   font_color=colors.DARKGREEN)
             my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
 
-    @allure.story("异常获取 Auth")
-    @allure.severity(allure.severity_level.CRITICAL)
-    @allure.title("{test_data.title}")
+    # @allure.story("异常获取 Auth")
+    # @allure.severity(allure.severity_level.CRITICAL)
+    # @allure.title("{test_data.title}")
     @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_auth_abnormal_data)
     def test_get_auth_abnormal(self, test_data):

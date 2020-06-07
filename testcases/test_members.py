@@ -15,7 +15,7 @@ from common.logger import my_logger
 from common.read_excel import ReadExcel
 
 
-@allure.feature("获取 Member 信息接口")
+# @allure.feature("获取 Member 信息接口")
 class TestMembers:
     """执行 Members 测试用例"""
     # 获取 Members 的测试用例数据
@@ -34,9 +34,9 @@ class TestMembers:
         elif data.flow == "abnormal":
             members_abnormal_data.append(data)
 
-    @allure.story('正常获取会员信息')
-    @allure.severity(allure.severity_level.CRITICAL)
-    @allure.title("{test_data.title}")
+    # @allure.story('正常获取会员信息')
+    # @allure.severity(allure.severity_level.CRITICAL)
+    # @allure.title("{test_data.title}")
     @pytest.mark.skip
     @pytest.mark.parametrize("test_data", members_test_data)
     def test_members_normal(self, test_data, get_session):
@@ -64,9 +64,9 @@ class TestMembers:
                                   font_color=colors.DARKGREEN)
             my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
 
-    @allure.story('异常获取会员信息')
-    @allure.severity(allure.severity_level.CRITICAL)
-    @allure.title("{test_data.title}")
+    # @allure.story('异常获取会员信息')
+    # @allure.severity(allure.severity_level.CRITICAL)
+    # @allure.title("{test_data.title}")
     @pytest.mark.skip
     @pytest.mark.parametrize("test_data", members_test_data)
     def test_members_abnormal(self, test_data, get_session):
