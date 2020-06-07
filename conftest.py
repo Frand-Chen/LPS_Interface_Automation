@@ -13,7 +13,7 @@ host = sec_conf.get("environment", "host")
 def pytest_sessionfinish(session):
     """写入测试环境信息到 allure 报告中"""
     # environment.properties 文件位置、名称固定
-    with open("{}/report/allure_data/environment.properties".format(session.config.rootdir), "w") as f:
+    with open("{}/allure_report_data/environment.properties".format(session.config.rootdir), "w") as f:
         f.write("membership_system={}\n"
                 "version={}\n"
                 "host={}".format(membership_system, version, host))
