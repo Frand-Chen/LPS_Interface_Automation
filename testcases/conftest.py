@@ -38,6 +38,7 @@ def get_session(get_headers_info):
     setattr(TestData, "sessionExpiry", session_expiry)
 
 
+@pytest.fixture()
 def get_auth(get_headers_info):
     """获取 auth, 并保存"""
     base_url, version, headers = get_headers_info
@@ -48,3 +49,8 @@ def get_auth(get_headers_info):
     # 保存数据到 TestData 类中
     setattr(TestData, "accessToken", token)
     setattr(TestData, "accessTokenExpiry", token_expiry)
+
+
+@pytest.fixture()
+def get_demo():
+    my_logger.info("fixture")

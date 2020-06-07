@@ -107,7 +107,7 @@ class ReadExcel:
         self.close()
 
     def delete_result_column(self):
-        """清除 result 一列的数据"""
+        """清除 result 列的数据"""
         self.open()
         row_sheets = list(self.sheet.rows)
         result_column = 0
