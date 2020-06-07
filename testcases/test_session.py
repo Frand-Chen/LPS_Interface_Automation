@@ -45,7 +45,7 @@ class TestSession:
     @allure.story("正常获取 Session")
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.title("{test_data.title}")
-    @pytest.mark.skip
+    # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_session_normal_data)
     def test_get_session_normal(self, test_data):
         """测试 getSession 请求正常的用例"""
@@ -76,7 +76,7 @@ class TestSession:
     @allure.story("异常获取 Session")
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.title("{test_data.title}")
-    @pytest.mark.skip
+    # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_session_abnormal_data)
     def test_get_session_abnormal(self, test_data):
         """测试 getSession 请求异常的用例"""
@@ -107,7 +107,7 @@ class TestSession:
     @allure.story("正常删除 Session")
     @allure.severity(allure.severity_level.NORMAL)
     @allure.title("{test_data.title}")
-    @pytest.mark.skip
+    # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", delete_session_normal_data)
     def test_delete_session_normal(self, test_data, get_session):
         """测试 deleteSession 请求正常的用例"""
@@ -134,7 +134,7 @@ class TestSession:
     @allure.story("异常删除 Session")
     @allure.severity(allure.severity_level.NORMAL)
     @allure.title("{test_data.title}")
-    @pytest.mark.skip
+    # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", delete_session_abnormal_data)
     def test_delete_session_abnormal(self, test_data, get_session):
         """测试 deleteSessoin 请求异常的用例"""
