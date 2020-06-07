@@ -6,7 +6,7 @@ main.py
 __pycache__/
 *.py[cod]
 *$py.class
-report
+# report
 # LPS_testcases.xlsx
 # secrecy_config.ini
 
