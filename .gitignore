@@ -9,6 +9,7 @@ __pycache__/
 # report
 # LPS_testcases.xlsx
 # secrecy_config.ini
+allure_report*
 
 
 # C extensions

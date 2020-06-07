@@ -1,1 +1,0 @@
-INFO     my_log:test_session.py:74 getSession - 1：成功获取sessionId，参数含propertyCode ---> Pass
