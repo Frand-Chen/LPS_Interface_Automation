@@ -18,9 +18,9 @@ def get_headers_info():
     """获取 headers 信息"""
     base_url = sec_conf.get("environment", "base_url")
     version = sec_conf.get("environment", "version")
-    headers = eval(sec_conf.get("environment", "headers"))
+    headers = eval(sec_conf.get("environment", "base_headers"))
     headers["AKey"] = sec_conf.get("environment", "AKey")
-    headers["Host"] = sec_conf.get("environment", "host")
+    headers["Host"] = sec_conf.get("environment", "Host")
 
     return base_url, version, headers
 

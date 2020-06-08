@@ -49,25 +49,42 @@ def get_test_data(test_data):
     flow = test_data.flow
     title = test_data.title
     method = test_data.method
+
     base_url = sec_conf.get("environment", "base_url")
     url = base_url + replace_data("environment", test_data.url)
+
+    custom_headers = test_data.headers
+    if custom_headers != None:
+        custom_headers = eval(replace_data("environment", custom_headers))
+    headers = dict(custom_headers, **eval(sec_conf.get("environment", "base_headers")))
+
     params = test_data.params
     if params != None:
         params = eval(replace_data("environment", params))
+
     data = test_data.data
     if data != None:
         data = eval(data)
+
     expected = test_data.expected
     if expected != None:
         expected = eval(replace_data("environment", expected))
-    headers = eval(sec_conf.get("environment", "headers"))
+
     check_sql = test_data.check_sql
+
     return case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql
 
 
 if __name__ == '__main__':
     # data = replace_data("#phone#,#name#")
-    dic = 'vNext2/api/#version#/session?propertyCode=#propertyCode#'
-    data = replace_data("environment", dic)
-    print(type(data))
-    print(data)
+    # dic = 'vNext2/api/#version#/session?propertyCode=#propertyCode#'
+    # dic = 'vNext2/api/#version#/session?propertyCode=#propertyCode#'
+    headers = '{"AKey":"#AKey#"}'
+    headers = eval(replace_data("environment", headers))
+    headers = dict(headers, **eval(sec_conf.get("environment", "headers")))
+
+    print(headers)
+    # header_demo = dict(headers,**base_headers)
+    # print(header_demo)
+    # base_headers.update(headers)
+    # print(base_headers)

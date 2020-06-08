@@ -7,8 +7,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 report
-# LPS_testcases.xlsx
-# secrecy_config.ini
+LPS_testcases.xlsx
+secrecy_config.ini
 allure_report*
 
 

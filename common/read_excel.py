@@ -97,8 +97,7 @@ class ReadExcel:
         :param bold: True 字体加粗, False 字体不加粗
         """
         # 先清除 result 列的数据
-        self.delete_result_column()
-
+        self.open()
         font = Font(color=font_color, bold=bold)
         # 写入数据
         self.sheet.cell(row=row, column=column).font = font

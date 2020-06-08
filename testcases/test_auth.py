@@ -22,7 +22,7 @@ class TestAuth:
     excel = ReadExcel(test_case_path, "Auth")
     auth_test_data = excel.read_data_object()
     # 写测试结果的列数
-    result_column = 10
+    result_column = 11
 
     # 划分测试用例数据
     get_auth_normal_data = []
@@ -33,6 +33,8 @@ class TestAuth:
             get_auth_normal_data.append(data)
         elif data.flow == "abnormal":
             get_auth_abnormal_data.append(data)
+        elif data.flow == "skip":
+            excel.write_data(row=data.case_id + 1, column=result_column, value="Skip", font_color=colors.PURPLE)
 
     @allure.story("正常获取 Auth")
     @allure.severity(allure.severity_level.CRITICAL)
@@ -43,8 +45,6 @@ class TestAuth:
         """测试 Auth 请求正常的用例"""
         case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
             test_data)
-        headers["AKey"] = sec_conf.get("environment", "AKey")
-        headers["Host"] = sec_conf.get("environment", "host")
 
         response = http.send(url=url, method=method, params=params, headers=headers)
         # 断言
@@ -70,11 +70,6 @@ class TestAuth:
         """测试 Auth 请求异常的用例"""
         case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
             test_data)
-        headers["Host"] = sec_conf.get("environment", "host")
-        if test_data.title == "错误的AKey":
-            headers["AKey"] = "8D1097CD-40DF-4BA2-8EFD-CCD896798B23"
-        elif test_data.title == "缺少AKey":
-            headers["AKey"] = None
 
         response = http.send(url=url, method=method, params=params, headers=headers)
 

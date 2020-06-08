@@ -3,6 +3,7 @@
 """
 members 测试用例模块
 """
+
 import pytest
 from testcases import *
 from openpyxl.styles import colors
@@ -22,38 +23,37 @@ class TestMembers:
     excel = ReadExcel(test_case_path, "Members")
     members_test_data = excel.read_data_object()
     # 写测试结果的列数
-    result_column = 10
+    result_column = 11
 
     # 划分测试用例数据
     members_normal_data = []
     members_abnormal_data = []
-
     for data in members_test_data:
         if data.flow == "normal":
             members_normal_data.append(data)
         elif data.flow == "abnormal":
             members_abnormal_data.append(data)
+        elif data.flow == "skip":
+            excel.write_data(row=data.case_id + 1, column=result_column, value="Skip", font_color=colors.PURPLE)
 
     @allure.story('正常获取会员信息')
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.title("{test_data.title}")
     @pytest.mark.skip
-    @pytest.mark.parametrize("test_data", members_test_data)
+    @pytest.mark.parametrize("test_data", members_normal_data)
     def test_members_normal(self, test_data, get_session):
         """测试 members 请求正常的用例"""
         case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
             test_data)
-        headers["Host"] = sec_conf.get("environment", "host")
-        headers["AKey"] = sec_conf.get("environment", "Akey")
-        headers["Session"] = getattr(TestData, "sessionId")
+
         response = http.send(url=url, method=method, params=params, headers=headers)
-        response_json_data = response.json()
+
         # 断言
         try:
             assert expected["code"] == response.status_code
-            assert expected["number"] == jsonpath(response_json_data, "$.members[0].number")[0]
-            assert expected["firstName"] == jsonpath(response_json_data, "$.members[0].firstName")[0]
-            assert expected["lastName"] == jsonpath(response_json_data, "$.members[0].lastName")[0]
+            assert expected["number"] == jsonpath(response.json(), "$.members[0].number")[0]
+            assert expected["firstName"] == jsonpath(response.json(), "$.members[0].firstName")[0]
+            assert expected["lastName"] == jsonpath(response.json(), "$.members[0].lastName")[0]
         except AssertionError as e:
             self.excel.write_data(row=case_id + 1, column=self.result_column, value="Fail",
                                   font_color=colors.RED)
@@ -68,14 +68,11 @@ class TestMembers:
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.title("{test_data.title}")
     @pytest.mark.skip
-    @pytest.mark.parametrize("test_data", members_test_data)
+    @pytest.mark.parametrize("test_data", members_abnormal_data)
     def test_members_abnormal(self, test_data, get_session):
         """测试 members 请求异常的用例"""
         case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
             test_data)
-        headers["Host"] = sec_conf.get("environment", "host")
-        headers["Akey"] = sec_conf.get("environment", "AKey")
-        headers["Session"] = getattr(TestData, "sessionId")
 
         response = http.send(url=url, method=method, params=params, headers=headers)
         # 断言

@@ -22,7 +22,7 @@ class TestSession:
     excel = ReadExcel(test_case_path, "Session")
     session_test_data = excel.read_data_object()
     # 写测试结果的列数
-    result_column = 10
+    result_column = 11
 
     # 划分测试用例数据
     get_session_normal_data = []
@@ -41,6 +41,8 @@ class TestSession:
                 get_session_abnormal_data.append(data)
             elif data.interface == "deleteSession":
                 delete_session_abnormal_data.append(data)
+        elif data.flow == "skip":
+            excel.write_data(row=data.case_id + 1, column=result_column, value="Skip", font_color=colors.PURPLE)
 
     @allure.story("正常获取 Session")
     @allure.severity(allure.severity_level.CRITICAL)
@@ -52,8 +54,6 @@ class TestSession:
         # 测试数据
         case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
             test_data)
-        headers["AKey"] = sec_conf.get("environment", "AKey")
-        headers["Host"] = sec_conf.get("environment", "host")
 
         # 发送请求
         response = http.send(url=url, method=method, params=params, headers=headers)
@@ -83,12 +83,6 @@ class TestSession:
         case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
             test_data)
 
-        headers["Host"] = sec_conf.get("environment", "host")
-        if title == "错误的AKey":
-            headers["AKey"] = sec_conf.get("environment", "errorAKey")
-        elif title == "缺少AKey":
-            headers["AKey"] = None
-
         # 发送请求
         response = http.send(url=url, method=method, params=params, headers=headers)
 
@@ -107,14 +101,12 @@ class TestSession:
     @allure.story("正常删除 Session")
     @allure.severity(allure.severity_level.NORMAL)
     @allure.title("{test_data.title}")
-    # @pytest.mark.skip
+    @pytest.mark.skip
     @pytest.mark.parametrize("test_data", delete_session_normal_data)
     def test_delete_session_normal(self, test_data, get_session):
         """测试 deleteSession 请求正常的用例"""
         case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
             test_data)
-        headers["AKey"] = sec_conf.get("environment", "AKey")
-        headers["Host"] = sec_conf.get("environment", "host")
 
         # 发送请求
         response = http.send(url=url, method=method, headers=headers)
@@ -134,22 +126,12 @@ class TestSession:
     @allure.story("异常删除 Session")
     @allure.severity(allure.severity_level.NORMAL)
     @allure.title("{test_data.title}")
-    # @pytest.mark.skip
+    @pytest.mark.skip
     @pytest.mark.parametrize("test_data", delete_session_abnormal_data)
     def test_delete_session_abnormal(self, test_data, get_session):
         """测试 deleteSessoin 请求异常的用例"""
         case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
             test_data)
-        headers["Host"] = sec_conf.get("environment", "host")
-
-        if title == "缺少sessionId":
-            headers["AKey"] = sec_conf.get("environment", "errorAKey")
-        elif title == "错误的sessionId":
-            headers["AKey"] = sec_conf.get("environment", "AKey")
-        elif title == "错误的AKey":
-            headers["AKey"] = "8D1097CD-40DF-4BA2-8EFD-CCD896798B23"
-        elif title == "缺少AKey":
-            headers["AKey"] = None
 
         response = http.send(url=url, method=method, headers=headers)
 
