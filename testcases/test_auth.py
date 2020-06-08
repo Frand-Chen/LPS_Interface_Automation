@@ -8,7 +8,6 @@ import pytest
 import allure
 from testcases import *
 from openpyxl.styles import colors
-from common.handle_config import sec_conf
 from common.handle_data import get_test_data
 from common.handle_request import handle_session_request as http
 from common.logger import my_logger

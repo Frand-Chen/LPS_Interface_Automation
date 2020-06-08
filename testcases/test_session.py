@@ -8,7 +8,6 @@ import pytest
 import allure
 from testcases import *
 from openpyxl.styles import colors
-from common.handle_config import sec_conf
 from common.handle_data import get_test_data
 from common.handle_request import handle_session_request as http
 from common.logger import my_logger
@@ -66,7 +65,6 @@ class TestSession:
         except AssertionError as e:
             self.excel.write_data(row=case_id + 1, column=self.result_column, value="Fail", font_color=colors.RED)
             my_logger.info("{} - {}：{} ---> Fail".format(interface, case_id, title))
-            # Auth-用例title：成功获取Token ---> Pass
             raise e
         else:
             self.excel.write_data(row=case_id + 1, column=self.result_column, value="Pass",

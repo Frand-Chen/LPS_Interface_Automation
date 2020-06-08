@@ -9,8 +9,7 @@ from testcases import *
 from openpyxl.styles import colors
 import allure
 from jsonpath import jsonpath
-from common.handle_config import sec_conf
-from common.handle_data import get_test_data, TestData
+from common.handle_data import get_test_data
 from common.handle_request import handle_session_request as http
 from common.logger import my_logger
 from common.read_excel import ReadExcel
@@ -46,6 +45,7 @@ class TestMembers:
         case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
             test_data)
 
+        # 发送请求
         response = http.send(url=url, method=method, params=params, headers=headers)
 
         # 断言
@@ -74,7 +74,9 @@ class TestMembers:
         case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
             test_data)
 
+        # 发送请求
         response = http.send(url=url, method=method, params=params, headers=headers)
+
         # 断言
         try:
             if title == "错误的companyName":
