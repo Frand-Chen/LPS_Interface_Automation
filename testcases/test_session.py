@@ -46,7 +46,7 @@ class TestSession:
     @allure.story("正常获取 Session")
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.title("{test_data.title}")
-    # @pytest.mark.skip
+    @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_session_normal_data)
     def test_get_session_normal(self, test_data):
         """测试 getSession 请求正常的用例"""
@@ -131,8 +131,10 @@ class TestSession:
         case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
             test_data)
 
+        # 发送请求
         response = http.send(url=url, method=method, headers=headers)
 
+        # 断言
         try:
             assert expected["code"] == response.status_code
         except AssertionError as e:

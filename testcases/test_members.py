@@ -38,7 +38,7 @@ class TestMembers:
     @allure.story('正常获取会员信息')
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.title("{test_data.title}")
-    @pytest.mark.skip
+    # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", members_normal_data)
     def test_members_normal(self, test_data, get_session):
         """测试 members 请求正常的用例"""
@@ -51,9 +51,16 @@ class TestMembers:
         # 断言
         try:
             assert expected["code"] == response.status_code
-            assert expected["number"] == jsonpath(response.json(), "$.members[0].number")[0]
-            assert expected["firstName"] == jsonpath(response.json(), "$.members[0].firstName")[0]
-            assert expected["lastName"] == jsonpath(response.json(), "$.members[0].lastName")[0]
+            if title in ["通过会员名查询", "通过会员姓查询", "通过相关联的会员姓和名组合查询"]:
+                assert expected["id"] in jsonpath(response.json(), "$.members[0:].id")
+                assert jsonpath(response.json(), "$.matchCount")[0] >= 1
+                assert expected["firstName"] in jsonpath(response.json(), "$.members[0:].firstName")
+                assert expected["lastName"] in jsonpath(response.json(), "$.members[0:].lastName")
+            else:
+                assert expected["id"] == jsonpath(response.json(), "$.members[0].id")[0]
+                assert expected["matchCount"] == jsonpath(response.json(), "$.matchCount")[0]
+                assert expected["firstName"] == jsonpath(response.json(), "$.members[0].firstName")[0]
+                assert expected["lastName"] == jsonpath(response.json(), "$.members[0].lastName")[0]
         except AssertionError as e:
             self.excel.write_data(row=case_id + 1, column=self.result_column, value="Fail",
                                   font_color=colors.RED)
@@ -79,12 +86,19 @@ class TestMembers:
 
         # 断言
         try:
-            if title == "错误的companyName":
+            if title in ["错误的companyName"]:
+                assert expected["code"] == response.status_code
+                assert expected["id"] == jsonpath(response.json(), "$.members[0].id")[0]
+                assert expected["firstName"] == jsonpath(response.json(), "$.members[0].firstName")[0]
+                assert expected["lastName"] == jsonpath(response.json(), "$.members[0].lastName")[0]
+            elif title in ["查询不存在的会员卡号", "查询错误的邮箱地址", "查询不存在的会员名",
+                           "查询不存在的会员姓", "通过不相关的会员姓和名组合查询",
+                           "查询不存在的手机号,11位数", "查询错误的手机号,超过11位数",
+                           "查询错误的手机号,小于11位数"]:
                 assert expected["code"] == response.status_code
                 assert expected["matchCount"] == jsonpath(response.json(), "$.matchCount")[0]
-                assert expected["members"] == jsonpath(response.json(), "$.members")
-            elif title == "缺少companyName":
-                print(response.status_code)
+                assert expected["members"] == jsonpath(response.json(), "$.members")[0]
+            else:
                 assert expected["code"] == response.status_code
 
         except AssertionError as e:

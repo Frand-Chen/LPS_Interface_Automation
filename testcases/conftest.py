@@ -10,7 +10,6 @@ from jsonpath import jsonpath
 from common.handle_config import sec_conf
 from common.handle_data import TestData
 from common.handle_request import handle_session_request as http
-from common.logger import my_logger
 
 
 @pytest.fixture()
@@ -50,7 +49,3 @@ def get_auth(get_headers_info):
     setattr(TestData, "accessToken", token)
     setattr(TestData, "accessTokenExpiry", token_expiry)
 
-
-@pytest.fixture()
-def get_demo():
-    my_logger.info("fixture")
