@@ -38,7 +38,7 @@ class TestAuth:
     @allure.story("正常获取 Auth")
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.title("{test_data.title}")
-    @pytest.mark.skip
+    # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_auth_normal_data)
     def test_get_auth_normal(self, test_data):
         """测试 Auth 请求正常的用例"""
@@ -65,7 +65,7 @@ class TestAuth:
     @allure.story("异常获取 Auth")
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.title("{test_data.title}")
-    @pytest.mark.skip
+    # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_auth_abnormal_data)
     def test_get_auth_abnormal(self, test_data):
         """测试 Auth 请求异常的用例"""

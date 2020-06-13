@@ -74,7 +74,7 @@ class TestMembers:
     @allure.story('异常获取会员信息')
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.title("{test_data.title}")
-    @pytest.mark.skip
+    # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", members_abnormal_data)
     def test_members_abnormal(self, test_data, get_session):
         """测试 members 请求异常的用例"""
