@@ -24,7 +24,7 @@ def get_headers_info():
     return base_url, version, headers
 
 
-@pytest.fixture()
+@pytest.fixture(scope="function")
 def get_session(get_headers_info):
     """获取 session, 并保存"""
     base_url, version, headers = get_headers_info
@@ -37,7 +37,7 @@ def get_session(get_headers_info):
     setattr(TestData, "sessionExpiry", session_expiry)
 
 
-@pytest.fixture()
+@pytest.fixture(scope="class")
 def get_auth(get_headers_info):
     """获取 auth, 并保存"""
     base_url, version, headers = get_headers_info

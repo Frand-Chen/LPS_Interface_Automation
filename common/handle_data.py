@@ -35,6 +35,8 @@ def replace_data(section, data) -> str:
         try:
             # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
             data = data.replace(item, str(sec_conf.get(section, key)))
+            # TODO
+            # 如果读取到checkNumber，自然增加1
         except:
             # 如果配置文件中没有对应的 key,则到 TestDate 中查找
             data = data.replace(item, str(getattr(TestData, key)))

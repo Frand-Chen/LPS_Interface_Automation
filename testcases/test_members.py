@@ -15,7 +15,7 @@ from common.logger import my_logger
 from common.read_excel import ReadExcel
 
 
-@allure.feature("获取 Member 信息接口")
+@allure.feature("查询 Member 信息接口")
 class TestMembers:
     """执行 Members 测试用例"""
     # 获取 Members 的测试用例数据
