@@ -10,6 +10,7 @@ from jsonpath import jsonpath
 from common.handle_config import sec_conf
 from common.handle_data import TestData
 from common.handle_request import handle_session_request as http
+from common.logger import my_logger
 
 
 @pytest.fixture()
@@ -24,7 +25,7 @@ def get_headers_info():
     return base_url, version, headers
 
 
-@pytest.fixture(scope="function")
+@pytest.fixture()
 def get_session(get_headers_info):
     """获取 session, 并保存"""
     base_url, version, headers = get_headers_info
@@ -37,15 +38,16 @@ def get_session(get_headers_info):
     setattr(TestData, "sessionExpiry", session_expiry)
 
 
-@pytest.fixture(scope="class")
+@pytest.fixture()
 def get_auth(get_headers_info):
     """获取 auth, 并保存"""
     base_url, version, headers = get_headers_info
     url = base_url + "vNext2/api/{}/login".format(version)
-    response = http.send(url=url, method="get", headers=headers)
+    membershipCardNumber = sec_conf.get("environment", "membershipCardNumber")
+    params = {"id": membershipCardNumber}
+    response = http.send(url=url, method="get", params=params, headers=headers)
     token = jsonpath(response.json(), "$..accessToken")[0]
     token_expiry = jsonpath(response.json(), "$..accessTokenExpiry")[0]
     # 保存数据到 TestData 类中
     setattr(TestData, "accessToken", token)
     setattr(TestData, "accessTokenExpiry", token_expiry)
-

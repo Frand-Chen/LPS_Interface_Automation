@@ -66,7 +66,7 @@ def get_test_data(test_data):
 
     data = test_data.data
     if data != None:
-        data = eval(data)
+        data = eval(replace_data("environment", data))
 
     expected = test_data.expected
     if expected != None:

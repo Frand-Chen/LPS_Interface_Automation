@@ -20,18 +20,18 @@ class TestMembers:
     """执行 Members 测试用例"""
     # 获取 Members 的测试用例数据
     excel = ReadExcel(test_case_path, "Members")
-    members_test_data = excel.read_data_object()
+    member_test_data = excel.read_data_object()
     # 写测试结果的列数
     result_column = 11
 
     # 划分测试用例数据
-    members_normal_data = []
-    members_abnormal_data = []
-    for data in members_test_data:
+    get_member_normal_data = []
+    get_member_abnormal_data = []
+    for data in member_test_data:
         if data.flow == "normal":
-            members_normal_data.append(data)
+            get_member_normal_data.append(data)
         elif data.flow == "abnormal":
-            members_abnormal_data.append(data)
+            get_member_abnormal_data.append(data)
         elif data.flow == "skip":
             excel.write_data(row=data.case_id + 1, column=result_column, value="Skip", font_color=colors.PURPLE)
 
@@ -39,8 +39,8 @@ class TestMembers:
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.title("{test_data.title}")
     # @pytest.mark.skip
-    @pytest.mark.parametrize("test_data", members_normal_data)
-    def test_members_normal(self, test_data, get_session):
+    @pytest.mark.parametrize("test_data", get_member_normal_data)
+    def test_member_normal(self, test_data, get_session):
         """测试 members 请求正常的用例"""
         case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
             test_data)
@@ -75,8 +75,8 @@ class TestMembers:
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.title("{test_data.title}")
     # @pytest.mark.skip
-    @pytest.mark.parametrize("test_data", members_abnormal_data)
-    def test_members_abnormal(self, test_data, get_session):
+    @pytest.mark.parametrize("test_data", get_member_abnormal_data)
+    def test_member_abnormal(self, test_data, get_session):
         """测试 members 请求异常的用例"""
         case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
             test_data)
