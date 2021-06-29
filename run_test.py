@@ -14,5 +14,3 @@ os.system('allure generate ./allure_report_data -o ./allure_report_html --clean'
 
 # 报告二，生成 html 报告
 # pytest.main(['-m test', '-s',"--html=report/report_{}.html".format(ts)])
-
-test = "11"

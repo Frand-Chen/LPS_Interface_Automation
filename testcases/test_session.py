@@ -68,7 +68,7 @@ class TestSession:
             raise e
         else:
             self.excel.write_data(row=case_id + 1, column=self.result_column, value="Pass",
-                                  font_color=colors.DARKGREEN)
+                                  font_color=colors.GREEN)
             my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
 
     @allure.story("异常获取 Session")
@@ -93,7 +93,7 @@ class TestSession:
             raise e
         else:
             self.excel.write_data(row=case_id + 1, column=self.result_column, value="Pass",
-                                  font_color=colors.DARKGREEN)
+                                  font_color=colors.GREEN)
             my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
 
     @allure.story("正常删除 Session")
@@ -118,7 +118,7 @@ class TestSession:
             raise e
         else:
             self.excel.write_data(row=case_id + 1, column=self.result_column, value="Pass",
-                                  font_color=colors.DARKGREEN)
+                                  font_color=colors.GREEN)
             my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
 
     @allure.story("异常删除 Session")
@@ -143,7 +143,7 @@ class TestSession:
             raise e
         else:
             self.excel.write_data(row=case_id + 1, column=self.result_column, value="Pass",
-                                  font_color=colors.DARKGREEN)
+                                  font_color=colors.GREEN)
             my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
 
 

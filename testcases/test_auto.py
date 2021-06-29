@@ -23,4 +23,17 @@
 # title_str = json.dumps(title_json)
 
 # print(type(title_str))
-print("ddddddd")
+
+import pytest
+import allure
+
+@allure.feature("获取 auto 接口")
+class TestAuto:
+
+    @allure.story("正常获取 auto")
+    @allure.severity(allure.severity_level.CRITICAL)
+    def test_get_normal(self):
+        print("ddddddd")
+
+if __name__ == '__main__':
+    pytest.main(["-s"])
