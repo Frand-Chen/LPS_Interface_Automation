@@ -33,16 +33,13 @@ def replace_data(section, data) -> str:
         key = res.group(1)
 
         try:
-            try:
-                # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
-                data = data.replace(item, str(sec_conf.get(section, key)))
-            except:
-                # 根据替换内容 item"#***#" 到 general_config 配置文件中查找对应的数据 key "***"，并进行替换
-                data = data.replace(item, str(gen_conf.get(section, key)))
+            # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
+            data = data.replace(item, str(sec_conf.get(section, key)))
+            # TODO
+            # 如果读取到checkNumber，自然增加1
         except:
             # 如果配置文件中没有对应的 key,则到 TestDate 中查找
             data = data.replace(item, str(getattr(TestData, key)))
-
 
     return data
 
@@ -54,25 +51,42 @@ def get_test_data(test_data):
     flow = test_data.flow
     title = test_data.title
     method = test_data.method
+
     base_url = sec_conf.get("environment", "base_url")
     url = base_url + replace_data("environment", test_data.url)
+
+    custom_headers = test_data.headers
+    if custom_headers != None:
+        custom_headers = eval(replace_data("environment", custom_headers))
+    headers = dict(custom_headers, **eval(sec_conf.get("environment", "base_headers")))
+
     params = test_data.params
     if params != None:
-        params = eval(replace_data("testdata", params))
+        params = eval(replace_data("environment", params))
+
     data = test_data.data
     if data != None:
-        data = eval(data)
+        data = eval(replace_data("environment", data))
+
     expected = test_data.expected
     if expected != None:
-        expected = eval(expected)
-    headers = eval(sec_conf.get("environment", "headers"))
+        expected = eval(replace_data("environment", expected))
+
     check_sql = test_data.check_sql
+
     return case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql
 
 
 if __name__ == '__main__':
     # data = replace_data("#phone#,#name#")
-    dic = 'vNext2/api/#version#/session?propertyCode=#propertyCode#'
-    data = replace_data(dic)
-    print(type(data))
-    print(data)
+    # dic = 'vNext2/api/#version#/session?propertyCode=#propertyCode#'
+    # dic = 'vNext2/api/#version#/session?propertyCode=#propertyCode#'
+    headers = '{"AKey":"#AKey#"}'
+    headers = eval(replace_data("environment", headers))
+    headers = dict(headers, **eval(sec_conf.get("environment", "headers")))
+
+    print(headers)
+    # header_demo = dict(headers,**base_headers)
+    # print(header_demo)
+    # base_headers.update(headers)
+    # print(base_headers)
