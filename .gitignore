@@ -9,6 +9,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 LPS_testcases.xlsx
+secrecy_config.ini
+
 
 # C extensions
 *.so

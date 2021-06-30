@@ -69,7 +69,8 @@ class ReadExcel:
             case_obj = TestData()
             # 遍历字典中的数据，设置为对象的属性和属性值
             for key, value in data_dict.items():
-                setattr(case_obj, key, value)
+                if key != None:
+                    setattr(case_obj, key, value)
             # 添加对象到 cases 中
             cases.append(case_obj)
         return cases

@@ -8,15 +8,15 @@ import logging
 import os
 
 from common.contents import LOG_DIR
-from common.handle_config import conf
+from common.handle_config import gen_conf
 
 # 获取配置文件中的 log 等级
-level = conf.get("logging", "level")
-file_level = conf.get("logging", "file_level")
-console_level = conf.get("logging", "console_level")
+level = gen_conf.get("logging", "level")
+file_level = gen_conf.get("logging", "file_level")
+console_level = gen_conf.get("logging", "console_level")
 
 # 获取日志文件的绝对路径
-file_name = conf.get("logging", "file_name")
+file_name = gen_conf.get("logging", "file_name")
 log_file_path = os.path.join(LOG_DIR, file_name)
 
 
@@ -53,10 +53,15 @@ class Logger:
 
 
 # 创建一个日志收集器
-my_log = Logger.create_logger()
+my_logger = Logger.create_logger()
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     my_log.info("info123")
     import time
     time.sleep(1.2)
     my_log.error("error456")
+=======
+    my_logger.info("info123")
+    my_logger.error("error456")
+>>>>>>> 66b788f92dcf28d3ac67b9f4549176877abad28b

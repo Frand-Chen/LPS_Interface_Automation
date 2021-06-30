@@ -1,0 +1,902 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1591114022718" stop="1591114024287">
+  <name>testcases</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1591114022718" status="canceled" stop="1591114022729">
+      <description>测试 Auth 请求正常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_normal[test_data0]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114022759" status="canceled" stop="1591114022770">
+      <description>测试 Auth 请求异常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_abnormal[test_data0]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114022800" status="canceled" stop="1591114022811">
+      <description>测试 Auth 请求异常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_abnormal[test_data1]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114022840" status="canceled" stop="1591114022851">
+      <description>测试 Auth 请求异常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_abnormal[test_data2]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114022881" status="canceled" stop="1591114022892">
+      <description>测试 Auth 请求异常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_abnormal[test_data3]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114022922" status="canceled" stop="1591114022932">
+      <description>测试 Auth 请求异常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_abnormal[test_data4]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114022961" status="canceled" stop="1591114022972">
+      <description>测试 Auth 请求异常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_abnormal[test_data5]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023002" status="canceled" stop="1591114023013">
+      <description>测试 Auth 请求异常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_abnormal[test_data6]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023042" status="canceled" stop="1591114023052">
+      <description>测试 Auth 请求异常的用例</description>
+      <name>test_auth.TestAuth.test_get_auth_abnormal[test_data7]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023081" status="failed" stop="1591114023210">
+      <description>测试 getSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_get_session_normal[test_data0]</name>
+      <failure>
+        <message>AttributeError: type object 'TestData' has no attribute 'propertyCode'</message>
+        <stack-trace>self = &lt;common.handle_config.HandleConf object at 0x0000023640E7CB38&gt;
+section = 'testdata', vars = None
+
+    def _unify_values(self, section, vars):
+        """Create a sequence of lookups with 'vars' taking priority over
+        the 'section' which takes priority over the DEFAULTSECT.
+    
+        """
+        sectiondict = {}
+        try:
+&gt;           sectiondict = self._sections[section]
+E           KeyError: 'testdata'
+
+c:\users\administrator\appdata\local\programs\python\python36\Lib\configparser.py:1138: KeyError
+
+During handling of the above exception, another exception occurred:
+
+section = 'testdata', data = '{"propertyCode":"#propertyCode#"}'
+
+    def replace_data(section, data) -&gt; str:
+        """
+        替换数据
+        :param config_file: 配置文件
+        :param section: 配置块
+        :param data: 需要替换的数据
+        :return: data
+        """
+        # 匹配规则
+        r = r"#(.+?)#"
+        # 根据规则，判断是否需要替换数据
+        while re.search(r, data):
+            # 匹配第一个要替换的数据
+            res = re.search(r, data)
+            # 提取待替换的数据 #***#
+            item = res.group()
+            # 获取替换内容中的数据项
+            key = res.group(1)
+    
+            try:
+                try:
+                    # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
+&gt;                   data = data.replace(item, str(sec_conf.get(section, key)))
+
+common\handle_data.py:38: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;common.handle_config.HandleConf object at 0x0000023640E7CB38&gt;
+section = 'testdata', option = 'propertyCode'
+
+    def get(self, section, option, *, raw=False, vars=None, fallback=_UNSET):
+        """Get an option value for a given section.
+    
+        If `vars' is provided, it must be a dictionary. The option is looked up
+        in `vars' (if provided), `section', and in `DEFAULTSECT' in that order.
+        If the key is not found and `fallback' is provided, it is used as
+        a fallback value. `None' can be provided as a `fallback' value.
+    
+        If interpolation is enabled and the optional argument `raw' is False,
+        all interpolations are expanded in the return values.
+    
+        Arguments `raw', `vars', and `fallback' are keyword only.
+    
+        The section DEFAULT is special.
+        """
+        try:
+&gt;           d = self._unify_values(section, vars)
+
+c:\users\administrator\appdata\local\programs\python\python36\Lib\configparser.py:781: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;common.handle_config.HandleConf object at 0x0000023640E7CB38&gt;
+section = 'testdata', vars = None
+
+    def _unify_values(self, section, vars):
+        """Create a sequence of lookups with 'vars' taking priority over
+        the 'section' which takes priority over the DEFAULTSECT.
+    
+        """
+        sectiondict = {}
+        try:
+            sectiondict = self._sections[section]
+        except KeyError:
+            if section != self.default_section:
+&gt;               raise NoSectionError(section)
+E               configparser.NoSectionError: No section: 'testdata'
+
+c:\users\administrator\appdata\local\programs\python\python36\Lib\configparser.py:1141: NoSectionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;common.handle_config.HandleConf object at 0x0000023640E7CCF8&gt;
+section = 'testdata', option = 'propertycode'
+
+    def get(self, section, option, *, raw=False, vars=None, fallback=_UNSET):
+        """Get an option value for a given section.
+    
+        If `vars' is provided, it must be a dictionary. The option is looked up
+        in `vars' (if provided), `section', and in `DEFAULTSECT' in that order.
+        If the key is not found and `fallback' is provided, it is used as
+        a fallback value. `None' can be provided as a `fallback' value.
+    
+        If interpolation is enabled and the optional argument `raw' is False,
+        all interpolations are expanded in the return values.
+    
+        Arguments `raw', `vars', and `fallback' are keyword only.
+    
+        The section DEFAULT is special.
+        """
+        try:
+            d = self._unify_values(section, vars)
+        except NoSectionError:
+            if fallback is _UNSET:
+                raise
+            else:
+                return fallback
+        option = self.optionxform(option)
+        try:
+&gt;           value = d[option]
+
+c:\users\administrator\appdata\local\programs\python\python36\Lib\configparser.py:789: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = ChainMap({}, OrderedDict([('test_case_file', 'LPS_testcases.xlsx'), ('membershipcardnumber', 'NK00000')]), OrderedDict([('serveraliveinterval', '455'), ('compression', 'yes'), ('compressionlevel', '9'), ('forwardx11', 'yes')]))
+key = 'propertycode'
+
+    def __getitem__(self, key):
+        for mapping in self.maps:
+            try:
+                return mapping[key]             # can't use 'key in mapping' with defaultdict
+            except KeyError:
+                pass
+&gt;       return self.__missing__(key)            # support subclasses that define __missing__
+
+E:\Python\Envs\InterfaceAuto\lib\collections\__init__.py:883: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = ChainMap({}, OrderedDict([('test_case_file', 'LPS_testcases.xlsx'), ('membershipcardnumber', 'NK00000')]), OrderedDict([('serveraliveinterval', '455'), ('compression', 'yes'), ('compressionlevel', '9'), ('forwardx11', 'yes')]))
+key = 'propertycode'
+
+    def __missing__(self, key):
+&gt;       raise KeyError(key)
+E       KeyError: 'propertycode'
+
+E:\Python\Envs\InterfaceAuto\lib\collections\__init__.py:875: KeyError
+
+During handling of the above exception, another exception occurred:
+
+section = 'testdata', data = '{"propertyCode":"#propertyCode#"}'
+
+    def replace_data(section, data) -&gt; str:
+        """
+        替换数据
+        :param config_file: 配置文件
+        :param section: 配置块
+        :param data: 需要替换的数据
+        :return: data
+        """
+        # 匹配规则
+        r = r"#(.+?)#"
+        # 根据规则，判断是否需要替换数据
+        while re.search(r, data):
+            # 匹配第一个要替换的数据
+            res = re.search(r, data)
+            # 提取待替换的数据 #***#
+            item = res.group()
+            # 获取替换内容中的数据项
+            key = res.group(1)
+    
+            try:
+                try:
+                    # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
+                    data = data.replace(item, str(sec_conf.get(section, key)))
+                except:
+                    # 根据替换内容 item"#***#" 到 general_config 配置文件中查找对应的数据 key "***"，并进行替换
+&gt;                   data = data.replace(item, str(gen_conf.get(section, key)))
+
+common\handle_data.py:41: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;common.handle_config.HandleConf object at 0x0000023640E7CCF8&gt;
+section = 'testdata', option = 'propertycode'
+
+    def get(self, section, option, *, raw=False, vars=None, fallback=_UNSET):
+        """Get an option value for a given section.
+    
+        If `vars' is provided, it must be a dictionary. The option is looked up
+        in `vars' (if provided), `section', and in `DEFAULTSECT' in that order.
+        If the key is not found and `fallback' is provided, it is used as
+        a fallback value. `None' can be provided as a `fallback' value.
+    
+        If interpolation is enabled and the optional argument `raw' is False,
+        all interpolations are expanded in the return values.
+    
+        Arguments `raw', `vars', and `fallback' are keyword only.
+    
+        The section DEFAULT is special.
+        """
+        try:
+            d = self._unify_values(section, vars)
+        except NoSectionError:
+            if fallback is _UNSET:
+                raise
+            else:
+                return fallback
+        option = self.optionxform(option)
+        try:
+            value = d[option]
+        except KeyError:
+            if fallback is _UNSET:
+&gt;               raise NoOptionError(option, section)
+E               configparser.NoOptionError: No option 'propertycode' in section: 'testdata'
+
+c:\users\administrator\appdata\local\programs\python\python36\Lib\configparser.py:792: NoOptionError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;testcases.test_session.TestSession object at 0x0000023642157DD8&gt;
+test_data = &lt;common.read_excel.TestData object at 0x00000236421EAEB8&gt;
+
+    @pytest.mark.normal
+    @pytest.mark.parametrize("test_data", session_test_data[0:1])
+    def test_get_session_normal(self, test_data):
+        """测试 getSession 请求正常的用例"""
+        if test_data.interface == "getSession" and test_data.flow == "normal":
+            # 测试数据
+            case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
+&gt;               test_data)
+
+testcases\test_session.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+common\handle_data.py:61: in get_test_data
+    params = eval(replace_data("testdata", params))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+section = 'testdata', data = '{"propertyCode":"#propertyCode#"}'
+
+    def replace_data(section, data) -&gt; str:
+        """
+        替换数据
+        :param config_file: 配置文件
+        :param section: 配置块
+        :param data: 需要替换的数据
+        :return: data
+        """
+        # 匹配规则
+        r = r"#(.+?)#"
+        # 根据规则，判断是否需要替换数据
+        while re.search(r, data):
+            # 匹配第一个要替换的数据
+            res = re.search(r, data)
+            # 提取待替换的数据 #***#
+            item = res.group()
+            # 获取替换内容中的数据项
+            key = res.group(1)
+    
+            try:
+                try:
+                    # 根据替换内容 item"#***#" 到 secrecy_config 配置文件中查找对应的数据 key "***"，并进行替换
+                    data = data.replace(item, str(sec_conf.get(section, key)))
+                except:
+                    # 根据替换内容 item"#***#" 到 general_config 配置文件中查找对应的数据 key "***"，并进行替换
+                    data = data.replace(item, str(gen_conf.get(section, key)))
+            except:
+                # 如果配置文件中没有对应的 key,则到 TestDate 中查找
+&gt;               data = data.replace(item, str(getattr(TestData, key)))
+E               AttributeError: type object 'TestData' has no attribute 'propertyCode'
+
+common\handle_data.py:44: AttributeError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023240" status="canceled" stop="1591114023250">
+      <description>测试 getSession 请求异常的用例</description>
+      <name>test_session.TestSession.test_get_session_abnormal[test_data0]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023280" status="canceled" stop="1591114023290">
+      <description>测试 getSession 请求异常的用例</description>
+      <name>test_session.TestSession.test_get_session_abnormal[test_data1]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023321" status="canceled" stop="1591114023331">
+      <description>测试 getSession 请求异常的用例</description>
+      <name>test_session.TestSession.test_get_session_abnormal[test_data2]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023362" status="canceled" stop="1591114023372">
+      <description>测试 getSession 请求异常的用例</description>
+      <name>test_session.TestSession.test_get_session_abnormal[test_data3]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023401" status="canceled" stop="1591114023411">
+      <description>测试 getSession 请求异常的用例</description>
+      <name>test_session.TestSession.test_get_session_abnormal[test_data4]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023440" status="canceled" stop="1591114023450">
+      <description>测试 getSession 请求异常的用例</description>
+      <name>test_session.TestSession.test_get_session_abnormal[test_data5]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023480" status="canceled" stop="1591114023491">
+      <description>测试 getSession 请求异常的用例</description>
+      <name>test_session.TestSession.test_get_session_abnormal[test_data6]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023522" status="canceled" stop="1591114023532">
+      <description>测试 getSession 请求异常的用例</description>
+      <name>test_session.TestSession.test_get_session_abnormal[test_data7]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023562" status="canceled" stop="1591114023572">
+      <description>测试 getSession 请求异常的用例</description>
+      <name>test_session.TestSession.test_get_session_abnormal[test_data8]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023603" status="canceled" stop="1591114023613">
+      <description>测试 deleteSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_delete_session_normal[test_data0]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023643" status="canceled" stop="1591114023653">
+      <description>测试 deleteSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_delete_session_normal[test_data1]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023681" status="canceled" stop="1591114023691">
+      <description>测试 deleteSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_delete_session_normal[test_data2]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023722" status="canceled" stop="1591114023733">
+      <description>测试 deleteSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_delete_session_normal[test_data3]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023763" status="canceled" stop="1591114023775">
+      <description>测试 deleteSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_delete_session_normal[test_data4]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023803" status="canceled" stop="1591114023813">
+      <description>测试 deleteSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_delete_session_normal[test_data5]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023842" status="canceled" stop="1591114023853">
+      <description>测试 deleteSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_delete_session_normal[test_data6]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023882" status="canceled" stop="1591114023893">
+      <description>测试 deleteSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_delete_session_normal[test_data7]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023921" status="canceled" stop="1591114023931">
+      <description>测试 deleteSession 请求正常的用例</description>
+      <name>test_session.TestSession.test_delete_session_normal[test_data8]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114023961" status="canceled" stop="1591114023971">
+      <description>测试 deleteSessoin 请求异常的用例</description>
+      <name>test_session.TestSession.test_delete_session_abnormal[test_data0]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114024000" status="canceled" stop="1591114024010">
+      <description>测试 deleteSessoin 请求异常的用例</description>
+      <name>test_session.TestSession.test_delete_session_abnormal[test_data1]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114024040" status="canceled" stop="1591114024051">
+      <description>测试 deleteSessoin 请求异常的用例</description>
+      <name>test_session.TestSession.test_delete_session_abnormal[test_data2]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114024079" status="canceled" stop="1591114024089">
+      <description>测试 deleteSessoin 请求异常的用例</description>
+      <name>test_session.TestSession.test_delete_session_abnormal[test_data3]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114024119" status="canceled" stop="1591114024130">
+      <description>测试 deleteSessoin 请求异常的用例</description>
+      <name>test_session.TestSession.test_delete_session_abnormal[test_data4]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114024159" status="canceled" stop="1591114024168">
+      <description>测试 deleteSessoin 请求异常的用例</description>
+      <name>test_session.TestSession.test_delete_session_abnormal[test_data5]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114024197" status="canceled" stop="1591114024207">
+      <description>测试 deleteSessoin 请求异常的用例</description>
+      <name>test_session.TestSession.test_delete_session_abnormal[test_data6]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114024236" status="canceled" stop="1591114024247">
+      <description>测试 deleteSessoin 请求异常的用例</description>
+      <name>test_session.TestSession.test_delete_session_abnormal[test_data7]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591114024277" status="canceled" stop="1591114024287">
+      <description>测试 deleteSessoin 请求异常的用例</description>
+      <name>test_session.TestSession.test_delete_session_abnormal[test_data8]</name>
+      <failure>
+        <message>Skipped: unconditional skip</message>
+        <stack-trace></stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="62004-MainThread"/>
+        <label name="host" value="DESKTOP-OL8RNLN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

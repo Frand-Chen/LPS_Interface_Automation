@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="741f0a7c-2a94-4a3c-964c-12f50521bc70" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/common/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/logger.py" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/common/handle_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LPS_Interface_Automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LPS_Interface_Automation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/handle_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/handle_data.py" afterDir="false" />
+>>>>>>> 1917295722e54449e7ed6228ff349b6ca96b4d5a
+>>>>>>> 66b788f92dcf28d3ac67b9f4549176877abad28b
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,8 +86,13 @@
       <file leaf-file-name="handle_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/handle_data.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="360">
+              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+=======
             <state relative-caret-position="514">
               <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+>>>>>>> 1917295722e54449e7ed6228ff349b6ca96b4d5a
               <folding>
                 <element signature="e#48#57#0" expanded="true" />
               </folding>
@@ -522,8 +539,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/logger.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="503">
           <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="360">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+=======
+        <state relative-caret-position="514">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+>>>>>>> 1917295722e54449e7ed6228ff349b6ca96b4d5a
+>>>>>>> 66b788f92dcf28d3ac67b9f4549176877abad28b
           <folding>
             <element signature="e#43#57#0" expanded="true" />
           </folding>
