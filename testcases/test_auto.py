@@ -27,6 +27,7 @@
 import pytest
 import allure
 
+
 @allure.feature("获取 auto 接口")
 class TestAuto:
 
@@ -34,6 +35,7 @@ class TestAuto:
     @allure.severity(allure.severity_level.CRITICAL)
     def test_get_normal(self):
         print("ddddddd")
+
 
 if __name__ == '__main__':
     pytest.main(["-s"])

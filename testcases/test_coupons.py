@@ -100,9 +100,9 @@ class TestCoupons:
         """测试退还 coupon 异常的用例"""
         pass
 
-
     # def test_de(self,get_auth):
     #     my_logger.info("test")
+
 
 if __name__ == '__main__':
     pytest.main(["-s"])

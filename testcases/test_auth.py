@@ -1,7 +1,7 @@
 # -*- coding=utf-8 -*-
 
 """
-auth 测试用例模块
+Auth 测试用例模块
 """
 
 import pytest
@@ -37,7 +37,7 @@ class TestAuth:
 
     @allure.story("正常获取 Auth")
     @allure.severity(allure.severity_level.CRITICAL)
-    @allure.title("{test_data.title}")
+    @allure.title("{test_data.case_id}.{test_data.title}")
     # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_auth_normal_data)
     def test_get_auth_normal(self, test_data):
@@ -64,7 +64,7 @@ class TestAuth:
 
     @allure.story("异常获取 Auth")
     @allure.severity(allure.severity_level.CRITICAL)
-    @allure.title("{test_data.title}")
+    @allure.title("{test_data.case_id}.{test_data.title}")
     # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_auth_abnormal_data)
     def test_get_auth_abnormal(self, test_data):

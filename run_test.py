@@ -3,9 +3,9 @@
 import os
 
 import pytest
-import time
-
-ts = str(int(time.time()))
+# import time
+#
+# ts = str(int(time.time()))
 
 # 报告一，生成 allure 报告
 # 执行pytest单元测试，生成 Allure 报告需要的数据存在 allure_data 目录

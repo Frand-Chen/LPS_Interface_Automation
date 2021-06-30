@@ -1,7 +1,7 @@
 # -*- coding=utf-8 -*-
 
 """
-session 测试用例模块
+Session 测试用例模块
 """
 
 import pytest
@@ -45,7 +45,7 @@ class TestSession:
 
     @allure.story("正常获取 Session")
     @allure.severity(allure.severity_level.CRITICAL)
-    @allure.title("{test_data.title}")
+    @allure.title("{test_data.case_id}.{test_data.title}")
     # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_session_normal_data)
     def test_get_session_normal(self, test_data):
@@ -73,7 +73,7 @@ class TestSession:
 
     @allure.story("异常获取 Session")
     @allure.severity(allure.severity_level.CRITICAL)
-    @allure.title("{test_data.title}")
+    @allure.title("{test_data.case_id}.{test_data.title}")
     # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_session_abnormal_data)
     def test_get_session_abnormal(self, test_data):
@@ -98,7 +98,7 @@ class TestSession:
 
     @allure.story("正常删除 Session")
     @allure.severity(allure.severity_level.NORMAL)
-    @allure.title("{test_data.title}")
+    @allure.title("{test_data.case_id}.{test_data.title}")
     # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", delete_session_normal_data)
     def test_delete_session_normal(self, test_data, get_session):
@@ -123,7 +123,7 @@ class TestSession:
 
     @allure.story("异常删除 Session")
     @allure.severity(allure.severity_level.NORMAL)
-    @allure.title("{test_data.title}")
+    @allure.title("{test_data.case_id}.{test_data.title}")
     # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", delete_session_abnormal_data)
     def test_delete_session_abnormal(self, test_data, get_session):

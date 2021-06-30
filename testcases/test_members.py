@@ -1,7 +1,7 @@
 # -*- coding=utf-8 -*-
 
 """
-members 测试用例模块
+Members 测试用例模块
 """
 
 import pytest
@@ -37,7 +37,7 @@ class TestMembers:
 
     @allure.story('正常获取会员信息')
     @allure.severity(allure.severity_level.CRITICAL)
-    @allure.title("{test_data.title}")
+    @allure.title("{test_data.case_id}.{test_data.title}")
     # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_member_normal_data)
     def test_member_normal(self, test_data, get_session):
@@ -73,7 +73,7 @@ class TestMembers:
 
     @allure.story('异常获取会员信息')
     @allure.severity(allure.severity_level.CRITICAL)
-    @allure.title("{test_data.title}")
+    @allure.title("{test_data.case_id}.{test_data.title}")
     # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_member_abnormal_data)
     def test_member_abnormal(self, test_data, get_session):
@@ -103,53 +103,12 @@ class TestMembers:
 
         except AssertionError as e:
             self.excel.write_data(row=case_id + 1, column=self.result_column, value="Fail", font_color=colors.RED)
+            my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
             raise e
         else:
             self.excel.write_data(row=case_id + 1, column=self.result_column, value="Pass",
                                   font_color=colors.DARKGREEN)
-
-    # @classmethod
-    # def setup_class(cls):
-    #     my_logger.info("setup_class")
-    #
-    # @classmethod
-    # def teardown_class(cls):
-    #     my_logger.info("teardown_class")
-    #
-    # def setup(self):
-    #     my_logger.info("setup")
-    #
-    # def teardown(self):
-    #     my_logger.info("teardown")
-    #
-    # test_data_demo = [1]
-    #
-    # @pytest.mark.parametrize("data1", test_data_demo)
-    # @pytest.mark.usefixtures("get_demo")
-    # def test_demo(self, data1):
-    #     my_logger.info("test_demo{}".format(data1))
-    #
-    # @pytest.mark.run(order=0)
-    # @pytest.mark.skip
-    # @pytest.mark.parametrize(("data1", "data2"), [(1, 2), (4, 5)])
-    # def test_demo2(self, data1, data2):
-    #     print("0", data1, data2)
-    #
-    # @pytest.mark.run(order=1)
-    # @pytest.mark.skip
-    # @pytest.mark.parametrize(("data1", "data2"), [(3, 5), (7, 8)])
-    # @allure.feature('购物车功能')
-    # @allure.story('加入购物车')
-    # @allure.step('demo测试')
-    # def test_demo1(self, data1, data2):
-    #     with allure.step("浏览商品"):  # 步骤2，step的参数将会打印到测试报告中
-    #         allure.attach('笔记本', '商品1')  # attach可以打印一些附加信息
-    #         allure.attach('手机', '商品2')
-    #
-    #     with allure.step("校验结果"):  # 步骤4
-    #         allure.attach('添加购物车成功', '期望结果', data1)
-    #         allure.attach('添加购物车失败', '实际结果', data2)
-    #         assert 1 > 2
+            my_logger.info("{} - {}：{} ---> Pass".format(interface, case_id, title))
 
 
 if __name__ == '__main__':
