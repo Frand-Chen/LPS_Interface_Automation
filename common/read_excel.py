@@ -7,7 +7,6 @@
 import openpyxl
 from openpyxl.styles import Font, colors
 
-
 class TestData:
     """保存测试用例数据"""
     pass

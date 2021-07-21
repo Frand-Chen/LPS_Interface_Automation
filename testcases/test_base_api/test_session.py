@@ -6,6 +6,7 @@ Session 测试用例模块
 
 import pytest
 import allure
+from pytest import assume
 from testcases import *
 from openpyxl.styles import colors
 from common.handle_data import get_test_data
@@ -48,6 +49,7 @@ class TestSession:
     @allure.title("{test_data.case_id}.{test_data.title}")
     # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_session_normal_data)
+    @pytest.mark.normal
     def test_get_session_normal(self, test_data):
         """测试 getSession 请求正常的用例"""
         # 测试数据
@@ -62,9 +64,14 @@ class TestSession:
             assert expected["code"] == response.status_code
             assert expected["field_1"] in response.json()
             assert expected["field_2"] in response.json()
+            # pytest.assume(expected["code"] == 33)
+            # pytest.assume(expected["field_1"] in response.json())
+            # pytest.assume(expected["field_2"] in response.json())
         except AssertionError as e:
             self.excel.write_data(row=case_id + 1, column=self.result_column, value="Fail", font_color=colors.RED)
             my_logger.info("{} - {}：{} ---> Fail".format(interface, case_id, title))
+            my_logger.info()
+            my_logger.info(response.json())
             raise e
         else:
             self.excel.write_data(row=case_id + 1, column=self.result_column, value="Pass",
@@ -76,6 +83,7 @@ class TestSession:
     @allure.title("{test_data.case_id}.{test_data.title}")
     # @pytest.mark.skip
     @pytest.mark.parametrize("test_data", get_session_abnormal_data)
+    @pytest.mark.abnormal
     def test_get_session_abnormal(self, test_data):
         """测试 getSession 请求异常的用例"""
         case_id, interface, flow, title, method, url, params, headers, data, expected, check_sql = get_test_data(
@@ -100,6 +108,7 @@ class TestSession:
     @allure.severity(allure.severity_level.NORMAL)
     @allure.title("{test_data.case_id}.{test_data.title}")
     # @pytest.mark.skip
+    # @pytest.mark.run(order=0)
     @pytest.mark.parametrize("test_data", delete_session_normal_data)
     def test_delete_session_normal(self, test_data, get_session):
         """测试 deleteSession 请求正常的用例"""

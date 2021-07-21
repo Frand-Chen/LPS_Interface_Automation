@@ -34,6 +34,21 @@ class HandleDB:
         self.cursor.execute(sql)
         return self.cursor.fetchall()
 
+    def insert(self, sql):
+        """插入数据"""
+        self.cursor.execute(sql)
+        self.connect.commit()
+
+    # TODO
+    def update(self, sql):
+        """更新数据"""
+        pass
+
+    # TODO
+    def delete(self, sql):
+        """删除数据"""
+        pass
+
     def count(self, sql):
         """获取查询到的数据个数"""
         self.connect.commit()
@@ -42,14 +57,22 @@ class HandleDB:
     def close(self):
         # 关闭游标对象
         self.cursor.close()
+        # 提交事务
+        self.connect.commit()
         # 关闭数据库连接
         self.connect.close()
 
 
 if __name__ == '__main__':
     # sql = "SELECT leave_amount FROM futureloan.member WHERE id={}".format(1)
-    sql = "SELECT leave_amount FROM futureloan.member"
+    # sql = "SELECT * FROM test.grade"
+    sql = "insert into test.grade (classname,score,sid) values('语文2',88,1001)"
     db = HandleDB()
-    result = db.get_all(sql)
+    # result = db.write(sql)
     # result = db.get_one(sql)
-    print(result)
+    # print(result)
+    # for i in range(10, 13):
+    #     sql = "insert into test.grade (classname,score,sid) values('语文{}',88,1001)".format(i)
+    #     db.insert(sql)
+    # db.connect.commit()
+
